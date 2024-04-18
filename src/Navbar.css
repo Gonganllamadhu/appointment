@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar{
+    background-color:rgb(228, 208, 90);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+.left{
+    font-size: x-large;
+    font-weight: 700;
+    float: left;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.right{
+    font-size: large;
+    font-weight: 400;
+    float: right;
+    padding-top: 15px;
+}
+
+a{
+    margin-right: 50px;
+    color: black;
+    padding-top: 40px;
+    text-decoration: none;
+}
