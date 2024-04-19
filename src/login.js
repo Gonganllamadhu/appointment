@@ -8,10 +8,10 @@ function Login({onShowRegister}){
         <div className="login">
             <div className="content">
             <label>Username</label> <br/>
-            <input type="text" placeholder="Username"/><br/>
+            <input type="text" placeholder="Enter you username"/><br/>
             <label>Password</label> <br/>
-            <input type="password" placeholder="password"></input><br></br>
-            <h6><a href="#">Forgot password</a></h6><br/>
+            <input type="password" placeholder="Enter your password"></input><br></br>
+            <h6><a href="#">Forgot password ?</a></h6><br/>
             <button>Login</button><br/>
             <label id="l1">Not a User ?</label> <br/>
             <button id="register" onClick={onShowRegister}>Register</button>

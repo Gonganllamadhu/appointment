@@ -1,10 +1,11 @@
-import vcube from './vcubepic.png';
+
 import './Home.css';
 function Home(){
     return(
-        <div className='home'>
-            <h1>Vcube Hospital</h1>
-        </div>
+      <div className='home123'>
+        <h1>king kong</h1>
+
+      </div>
 
         
     );

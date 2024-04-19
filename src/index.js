@@ -14,9 +14,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar/>
-    <Home />
+    
     <Logorreg/>
+    <Home/>
     <Info/>
+    
   </React.StrictMode>
 );
 

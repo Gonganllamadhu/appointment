@@ -1,16 +1,22 @@
 
 
 .login{
-    width: 250px;
-    height: 300px;
+    width: 240px;
+    height: 270px;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 15px;
     float: right;
     margin-right: 15%;
     margin-top: 80px;
+   
+    box-shadow: 5px 5px 25px 5px rgb(53, 52, 52);
+}
+.login:hover{
+    border: 1.5px rgb(239, 222, 44) solid;
+    box-shadow: 5px 5px 25px 5px rgb(53, 52, 52);
 }
 .content{
-    padding-left: 50px;
+    padding-left: 35px;
     padding-top: 40px;
 
 }
@@ -18,16 +24,17 @@ button{
     margin-left: 50px;
     width: 60px;
     height: 20px;
-    background-color: rgb(90, 90, 234);
+    background-color: rgb(240, 212, 84);
     border: 0px;
     border-radius: 5px;
     border: 1px black;
+    cursor: pointer;
 }
 h6{
     float: right;
 }
 a:hover{
-    color:blue;
+    color:rgb(187, 51, 194);
 }
 button:hover{
     background-color: rgb(63, 63, 108);
@@ -38,5 +45,33 @@ button:hover{
 
 }
 #register{
-    background-color: rgba(68, 164, 209, 0.55);
+    background-color: rgba(240, 212, 84);
+    padding-left: 5px;
+    padding-right: 5px;
 }
+a{
+    color: blue;
+}
+#register:hover{
+    background-color: rgb(63, 63, 108);
+    color: white;
+
+}
+button:active{
+    color: rgb(239, 222, 44);
+    background-color: black;
+}
+#register:active{
+
+    color: rgb(239, 222, 44);
+    background-color: black;
+}
+
+label{
+    color:  rgb(30, 70, 30);
+    font: bold;
+    
+    text-shadow: 13px 2px 11px 4px black;
+  
+}
+
