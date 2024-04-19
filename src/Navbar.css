@@ -11,7 +11,7 @@
 }
 .left{
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 500;
     float: left;
     padding-top: 15px;
     padding-left: 50px;
@@ -28,4 +28,11 @@ a{
     color: black;
     padding-top: 40px;
     text-decoration: none;
+}
+
+#navbara{
+    color: black;
+}
+#navbara:hover{
+    color: white;
 }
