@@ -1,11 +1,12 @@
 .home123{
-<<<<<<< HEAD
- 
     height: 600px;
-    width: 50%;
-=======
-    background: linear-gradient(to right,yellow,white);
-   
->>>>>>> 0830226d0f42723702d923728c6cfd834a1bbbee
-}
+    width: 100%;
+    padding-top: 100px;
 
+}
+.content12{
+    width: 55%;
+    height: 75%;
+    background-color: aqua;
+    padding-left: 40px;
+}

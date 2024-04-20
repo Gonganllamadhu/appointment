@@ -16,24 +16,11 @@ import About from './About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< HEAD
-    <Navbar/>
-    <Logorreg/>
-    <Home/>
-    <Info/>
-=======
   <Navbar/>
   <Home/>
-
-  <Logorreg/>
-  
-    
-
   <Speciality/>
   <About />
   <Info/>
->>>>>>> 0830226d0f42723702d923728c6cfd834a1bbbee
-    
   </React.StrictMode>
 );
 
