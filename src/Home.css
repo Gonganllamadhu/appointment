@@ -1,5 +1,12 @@
 .home123{
-    background: linear-gradient(to right,yellow,white);
-   
-}
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
 
+}
+.content12{
+    width: 55%;
+    height: 75%;
+    background-color: aqua;
+    padding-left: 40px;
+}

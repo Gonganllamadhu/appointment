@@ -19,13 +19,9 @@ root.render(
   <React.StrictMode>
   <Navbar/>
   <Home/>
-  <About/>
   <Speciality/>
-  <Features/>
-
-
-
-    
+  <About />
+  <Info/>
   </React.StrictMode>
 );
 
