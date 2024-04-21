@@ -21,6 +21,7 @@ root.render(
   <Home/>
   <Speciality/>
   <About />
+  <Features/>
   <Info/>
   </React.StrictMode>
 );

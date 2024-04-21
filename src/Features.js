@@ -3,9 +3,6 @@ import './Features.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-
-
-
 import { FaPhone } from 'react-icons/fa';
 import NoteIcon from '@mui/icons-material/Note';
 
