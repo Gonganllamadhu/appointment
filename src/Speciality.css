@@ -21,4 +21,13 @@
     font-size: larger;
     font-weight: 500;
     font-style: "arial";
+    padding-left: 10px;
+}
+#speclab{
+    padding-right: 10px;
+}
+
+.specicons:hover{
+    transform: scale(2);
+
 }

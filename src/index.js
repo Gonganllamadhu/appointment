@@ -10,8 +10,6 @@ import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
 import Speciality from './Speciality';
-import Treatment from './Treatment';
-import Treat from './Treat';
 
 import About from './About';
 
@@ -21,6 +19,7 @@ root.render(
   <Navbar/>
   <Home/>
   <Speciality/>
+  <Features/>
   <About />
   <Treat />
 
