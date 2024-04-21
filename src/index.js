@@ -20,6 +20,7 @@ root.render(
   <Navbar/>
   <Home/>
   <Speciality/>
+  <Features/>
   <About />
   <Info/>
   </React.StrictMode>
