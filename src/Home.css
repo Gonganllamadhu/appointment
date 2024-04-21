@@ -1,5 +1,6 @@
 .home123{
-    background: linear-gradient(to right,yellow,white);
-   
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
 }
 

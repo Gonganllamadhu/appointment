@@ -10,6 +10,7 @@ import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
 import Speciality from './Speciality';
+import Treatment from './Treatment';
 
 import About from './About';
 
@@ -25,6 +26,7 @@ root.render(
 
   <Speciality/>
   <About />
+  <Treatment />
   <Info/>
     
   </React.StrictMode>

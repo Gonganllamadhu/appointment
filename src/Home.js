@@ -3,7 +3,12 @@ import './Home.css';
 function Home(){
     return(
       <div className='home123'>
-       hi
+       hi <br/>
+       hi<br/>
+       hi <br/>
+       hi<br/>
+       hi <br/>
+       hi<br/>
 
       </div>
 

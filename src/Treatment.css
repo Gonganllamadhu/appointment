@@ -1,0 +1,33 @@
+.box {
+    width: 230px;
+    height: 260px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 20px 20px;
+    
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+.ambulance{
+    margin-top: 150px;
+}
+.brain{
+    margin-top: 150px;
+    
+}
+.surgery{
+    margin-top: 150px;
+}
+.heart{
+    margin-top: 150px;
+}
+.cardiac{
+    margin-top: 150px;
+}

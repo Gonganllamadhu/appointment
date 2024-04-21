@@ -1,6 +1,8 @@
 import './Speciality.css';
 import pic from './doctorpic.jpeg'
 
+
+
 import React from 'react'
 
 const Speciality = () => {
