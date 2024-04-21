@@ -11,6 +11,7 @@ import Logorreg from './logorreg';
 import Register from './Register';
 import Speciality from './Speciality';
 import Treatment from './Treatment';
+import Treat from './Treat';
 
 import About from './About';
 
@@ -19,16 +20,12 @@ root.render(
   <React.StrictMode>
   <Navbar/>
   <Home/>
-
-  <Logorreg/>
-  
-    
-
   <Speciality/>
   <About />
-  <Treatment />
+  <Treat />
+
   <Info/>
-    
+  <Treatment />
   </React.StrictMode>
 );
 

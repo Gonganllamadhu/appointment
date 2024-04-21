@@ -14,7 +14,7 @@ function Logorreg() {
   }
 
   return (
-    <div>
+    <div id="logorreg">
       {showLogin && <Login onShowRegister={handleShowRegister} />}
       {!showLogin && <Register setShowLogin={handleshowlogin}/>}
     </div>

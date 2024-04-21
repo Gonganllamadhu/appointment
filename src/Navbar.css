@@ -36,3 +36,12 @@ a{
 #navbara:hover{
     color: white;
 }
+#logo{
+    padding-bottom: 20px;
+    float: left;
+    padding-left: 20px;
+}
+#com{
+    float: left;
+    padding-top: 40px;
+}
