@@ -1,0 +1,16 @@
+
+.feacontainer{
+    width: 100%;
+    height: 50%;
+    background-color: lightblue;
+}
+.feacontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feabox{
+    width: 10%;
+    height: 20%;
+    
+}
