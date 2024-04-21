@@ -4,7 +4,7 @@
     height: 220px;
     border: 1px solid black;
     margin-top: 500px;
-    color:rgb(222, 196, 48);;
+    color:rgb(222, 196, 48);
 
 }
 .box{
@@ -17,7 +17,7 @@
     text-align: center;
 }
 .box1{
-    width: 43%;
+    width: 33%;
     padding-top: 30px;
     text-align: center;
 }

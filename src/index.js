@@ -10,7 +10,6 @@ import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
 import Speciality from './Speciality';
-import Features from './Features';
 
 import About from './About';
 
@@ -20,9 +19,16 @@ root.render(
   <Navbar/>
   <Home/>
   <Speciality/>
-  <About />
   <Features/>
+  <About />
+<<<<<<< HEAD
+  <Features/>
+=======
+  <Treat />
+
+>>>>>>> 0827ed1f7c9bfb634428f9a7f6d08f0658a039e3
   <Info/>
+  <Treatment />
   </React.StrictMode>
 );
 

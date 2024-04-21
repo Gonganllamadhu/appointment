@@ -1,12 +1,19 @@
 .home123{
-    height: 600px;
-    width: 100%;
-    padding-top: 100px;
 
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
 }
+
 .content12{
+<<<<<<< HEAD
     width: 55%;
     height: 75%;
+=======
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+>>>>>>> 0827ed1f7c9bfb634428f9a7f6d08f0658a039e3
     padding-left: 40px;
 }
 .content12 h1{
