@@ -7,6 +7,21 @@
 .content12{
     width: 55%;
     height: 75%;
-    background-color: aqua;
     padding-left: 40px;
+}
+.content12 h1{
+    font-size:500%;
+    font-style: italic;
+    color: rgb(117, 105, 36);;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#p1{
+    font-size: small;
+    font-weight: 700;
+    padding-left: 30px;
+}
+#p2{
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
