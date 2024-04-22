@@ -9,6 +9,7 @@ import Login from './login';
 import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
+import Para1 from './Para1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <Logorreg/>
     <Home/>
     <Info/>
+    <Para1/>
     
   </React.StrictMode>
 );
