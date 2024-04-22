@@ -9,11 +9,21 @@ import Login from './login';
 import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
+<<<<<<< HEAD
 import Para1 from './Para1';
+=======
+import Speciality from './Speciality';
+import Treat from './Treat';
+import Appointment from './Appointment'
+import About from './About';
+import Features from './Features';
+import Treatment from './Treatment';
+>>>>>>> 4595c2311f72c30927db9150b829735c09e17ca0
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Navbar/>
     
     <Logorreg/>
@@ -21,6 +31,15 @@ root.render(
     <Info/>
     <Para1/>
     
+=======
+  <Navbar/>
+  <Home/>
+  <Speciality/>
+  <Features/>
+  <About />
+  <Treat />
+  <Info/>
+>>>>>>> 4595c2311f72c30927db9150b829735c09e17ca0
   </React.StrictMode>
 );
 

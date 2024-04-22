@@ -1,0 +1,26 @@
+.bigbox{
+    width: 100%;
+    height: 50%;
+    
+
+}
+.bigbox{
+    display: flex;
+    justify-content: space-around;
+
+}
+.sbox{
+    width: 10%;
+    height: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.sboxcenter:hover{
+    transform: scale(1.2);
+}
+.sboxlabel{
+    color: black;
+}
+
+
+

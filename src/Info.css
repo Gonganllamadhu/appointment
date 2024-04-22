@@ -1,25 +1,70 @@
-.box{
-    background-color: rgb(170, 167, 167);
+.box {
+    background-color: rgb(6, 6, 5);
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+    height: 220px;
+    border: 1px solid rgb(12, 12, 12);
     margin-top: 500px;
-
-}
-.box{
+    color: rgb(222, 196, 48);
     display: flex;
+}
+
+.box0 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1, .box2, .box3 {
+    width: 33%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.values .dot {
+    margin-right: 1px;
+    font-size: 12px; 
+}
+
+.dot::before {
+    content: "• ";
+    color: rgb(6, 123, 27);
+}
+
+#starlogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#starlogo img {
+    margin-right: 10px;
+}
+
+#logoh3 {
+    padding-top: 15px;
+    font-style: italic;
+    font-size: xx-large;
+    color: rgb(254, 218, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .box0, .box1, .box2, .box3 {
+        width: 100%;
+        padding-top: 20px;
+    }
     
-}
-.box1{
-    width: 33%;
-    border-right: 1px rgb(252, 250, 250) solid;
-    padding: 50px;
-}
-.box2{
-    width: 33%;
-    padding: 50px;
-}
-.box3{
-    width: 33%;
-    padding: 50px;
+    .values {
+        padding-top: 10px;
+        font-size: 10px;
+    }
 }

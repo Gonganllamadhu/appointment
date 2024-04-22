@@ -4,14 +4,14 @@
 }
 
 .Navbar{
-    background-color:rgb(228, 208, 90);
+    background-color:rgba(255, 166, 0, 0.765);
     height: 60px;
     width: 100%;
     position: fixed;
 }
 .left{
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 500;
     float: left;
     padding-top: 15px;
     padding-left: 50px;
@@ -28,4 +28,20 @@ a{
     color: black;
     padding-top: 40px;
     text-decoration: none;
+}
+
+#navbara{
+    color: black;
+}
+#navbara:hover{
+    color: white;
+}
+#logo{
+    padding-bottom: 20px;
+    float: left;
+    padding-left: 20px;
+}
+#com{
+    float: left;
+    padding-top: 20px;
 }

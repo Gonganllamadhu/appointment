@@ -1,0 +1,33 @@
+.specbox{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(10, 22, 85, 0.68);
+}
+
+.specbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.specbox1{
+    width: 10%;
+    height: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#specid{
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    font-style: "arial";
+    padding-left: 10px;
+}
+#speclab{
+    padding-right: 10px;
+}
+
+.specicons:hover{
+    transform: scale(2);
+
+}
