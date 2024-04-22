@@ -7,24 +7,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserMd } from '@fortawesome/free-solid-svg-icons';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-<<<<<<< HEAD
-import { FaPhone } from 'react-icons/fa';
-=======
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
 import { faClipboardList } from '@fortawesome/free-solid-svg-icons';
-
-
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
->>>>>>> 0827ed1f7c9bfb634428f9a7f6d08f0658a039e3
 import NoteIcon from '@mui/icons-material/Note';
-
 import { faUndo } from '@fortawesome/free-solid-svg-icons';
 import { faClockRotateLeft } from '@fortawesome/free-solid-svg-icons';
-
-
-
-
-
 
 
 function Features(){

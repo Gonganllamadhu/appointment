@@ -1,17 +1,10 @@
 
 import './Treatment.css';
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTeeth } from '@fortawesome/free-solid-svg-icons';
 import { faGlasses } from '@fortawesome/free-solid-svg-icons';
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
 import { faBone } from '@fortawesome/free-solid-svg-icons';
-
-
-
-
-
 
 function Treatment(){
     return(

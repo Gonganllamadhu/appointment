@@ -10,7 +10,8 @@ import { faBaby } from '@fortawesome/free-solid-svg-icons';
 import { faBone } from '@fortawesome/free-solid-svg-icons';
 import { faBrain } from '@fortawesome/free-solid-svg-icons';
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
-
+import Starlogo from './Starlogo.png'
+import { Height } from '@mui/icons-material';
 
 
 
@@ -18,7 +19,15 @@ function Info(){
     return(
         <div className="box">
             <div className='box0'>
-                <p>vcubes</p>
+                <div id='starlogo'>
+                    <img src={Starlogo} alt="Star Logo" height={70} width={70} />
+                    <h3 id='logoh3'>Star Hospitals</h3>
+                </div>
+                <div className="values">
+                    <p><span className="dot">Expertise</span>
+                    <span className="dot">Empathy</span>
+                    <span className="dot">Excellence</span></p>
+                </div>
             </div>
             <div className="box1">
                 <h4>Specialities</h4><br/>
