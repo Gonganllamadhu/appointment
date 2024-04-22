@@ -1,6 +1,19 @@
 import React from 'react';
 import Logorreg from './logorreg';
 import './Home.css';
+<<<<<<< HEAD
+function Home(){
+    return(
+      <div className='home123'>
+        <h1>king kong</h1>
+        
+      </div>
+
+   
+
+        
+    );
+=======
 import Starlogo from './Starlogo.png'
 
 function Home() {
@@ -23,6 +36,7 @@ function Home() {
       </div>
     </div>
   );
+>>>>>>> 4595c2311f72c30927db9150b829735c09e17ca0
 }
 
 export default Home;
