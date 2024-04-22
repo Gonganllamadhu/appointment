@@ -10,6 +10,12 @@ import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
 import Speciality from './Speciality';
+import Treat from './Treat';
+import Features from './Features';
+import Treatment from './Treatment';
+import Copyright from './Copyright';
+import Marquee from './Marquee';
+
 
 import About from './About';
 
@@ -19,12 +25,17 @@ root.render(
   <Navbar/>
   <Home/>
   <Speciality/>
-  <Features/>
+  <Features />
+  
   <About />
+  
   <Treat />
-
+  <Marquee />
   <Info/>
   <Treatment />
+  <Copyright />
+
+  
   </React.StrictMode>
 );
 
