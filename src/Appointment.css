@@ -1,0 +1,61 @@
+.appointbar{
+    width: 100%;
+    height: 10%;
+    background-color: orange;
+
+}
+
+#appointlabel{
+    color: black;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.appointform{
+    width: 50%;
+    background-color: rgb(195, 220, 102);
+    height: 50%;
+    margin-left: 10%;
+}
+.appointboxmain{
+    width: 90%;
+    color: green;
+    height: 50%;
+}
+
+.appointbox1{
+    width: 40%;
+    height: 5%;
+}
+
+.appointboxmain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointboxmain22{
+    width: 90%;
+    color: green;
+    height: 50%;
+
+}
+
+.appointboxmain22{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointbox22{
+    width: 40%;
+    height: 5%;
+
+}
+
+.phonenumberdiv{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 50%;
+    
+}
+

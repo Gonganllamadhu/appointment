@@ -10,21 +10,17 @@ import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
 import Speciality from './Speciality';
+import Treat from './Treat';
+import Features from './Features';
+import Treatment from './Treatment';
+import Appointment from './Appointment';
 
 import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Navbar/>
-  <Home/>
-  <Speciality/>
-  <Features/>
-  <About />
-  <Treat />
-
-  <Info/>
-  <Treatment />
+  <Appointment/>
   </React.StrictMode>
 );
 
