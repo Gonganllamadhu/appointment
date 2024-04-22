@@ -1,14 +1,4 @@
 import './Speciality.css';
-<<<<<<< HEAD
-import React from 'react'
-=======
-
-
-
-
-
-import React from 'react';
->>>>>>> 94e29999423f7baafe0ac07ea049318992f9edcc
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBed } from '@fortawesome/free-solid-svg-icons';
 import { faUserMd } from '@fortawesome/free-solid-svg-icons';
