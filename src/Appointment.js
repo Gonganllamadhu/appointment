@@ -22,7 +22,7 @@ function Appointment(){
                 <div className='appointbox1'>
                     <label className='appointlabel12'>Guardian Name</label><br/>
                     <input type='text'></input>
-                </div>
+                </div> <br/>
 
                 <div className='appointbox1'>
                     <label className='appointlabel12'>Phone</label><br/>
