@@ -17,7 +17,13 @@ function Appointmentpage(){
             </div>
                 <div className="afterfelx">
                     <label>Appointment for</label><br/>
-                    <input className="appontinputl55"></input> <br/>
+                    <select className="appontinputl55">
+                        <option>Select one option</option>
+                        <option>Dr. </option>
+                        <option></option>
+                        <option></option>
+
+                    </select> <br/>
                     <label>Health Issue / Message</label><br/>
                     <input className="appontinputl55"></input>
                   
