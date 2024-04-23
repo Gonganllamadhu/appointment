@@ -1,11 +1,12 @@
 .box {
     background-color: rgb(6, 6, 5);
-    width: 100%;
+    width: 96%;
     height: 220px;
     border: 1px solid rgb(12, 12, 12);
-    margin-top: 500px;
+    margin-top: 50px;
     color: rgb(222, 196, 48);
     display: flex;
+    padding-left: 3%;
 }
 
 .box0 {
@@ -19,7 +20,7 @@
 .box1, .box2, .box3 {
     width: 33%;
     padding-top: 30px;
-    text-align: center;
+    
 }
 
 .values {
@@ -67,4 +68,8 @@
         padding-top: 10px;
         font-size: 10px;
     }
+}
+
+.box1{
+    padding-left: 5%;
 }

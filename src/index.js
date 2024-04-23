@@ -10,6 +10,7 @@ import Info from './Info';
 import Logorreg from './logorreg';
 import Register from './Register';
 
+
 import Para1 from './Para1';
 
 import Speciality from './Speciality';
@@ -18,6 +19,7 @@ import Appointment from './Appointment'
 import About from './About';
 import Features from './Features';
 import Treatment from './Treatment';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +35,7 @@ root.render(
   <Para1/>
   <Info/>
   
+
 
   </React.StrictMode>
 );

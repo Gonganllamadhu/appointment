@@ -4,10 +4,11 @@
 }
 
 .Navbar{
-    background-color:rgba(255, 166, 0, 0.765);
+    background-color: rgb(239, 222, 44);
     height: 60px;
     width: 100%;
     position: fixed;
+
 }
 .left{
     font-size: x-large;
