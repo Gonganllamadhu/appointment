@@ -18,20 +18,28 @@ import Appointment from './Appointment'
 import About from './About';
 import Features from './Features';
 import Treatment from './Treatment';
+import Copyright from './Copyright';
+import Marque from './Marquee';
+import Flowname from './Flowname';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>   
   <Navbar/>
+  <Flowname />
   <Home/>
   <Speciality/>
   <Features />
   <About />
 
   <Treat />
+  <Marque />
   <Para1/>
+  
   <Info/>
+  <Copyright />
+
   </React.StrictMode>
 );
 
