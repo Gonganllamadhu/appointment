@@ -24,13 +24,14 @@
 }
 
 .appointbox1{
-    width: 40%;
+    width: 50%;
     height: 5%;
 }
 
 .appointboxmain{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .appointboxmain22{

@@ -18,10 +18,14 @@ import Appointment from './Appointment'
 import About from './About';
 import Features from './Features';
 import Treatment from './Treatment';
+<<<<<<< HEAD
 import Copyright from './Copyright';
 import Marque from './Marquee';
 import Flowname from './Flowname';
 
+=======
+import Appointmentpage from './Appointmentpage';
+>>>>>>> 9d96a9d06ba918dc3436ee33753bcc2ec0729657
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +33,7 @@ root.render(
   <Navbar/>
   <Flowname />
   <Home/>
+<<<<<<< HEAD
   <Speciality/>
   <Features />
   <About />
@@ -37,6 +42,9 @@ root.render(
   <Marque />
   <Para1/>
   
+=======
+  <Appointmentpage/>
+>>>>>>> 9d96a9d06ba918dc3436ee33753bcc2ec0729657
   <Info/>
   <Copyright />
 

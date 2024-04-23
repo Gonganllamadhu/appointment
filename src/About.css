@@ -2,6 +2,8 @@
     padding-left: 5%;
     padding-right: 5%;
     width: 85%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
 }
 .t2{
     font-size: xx-large;
@@ -10,4 +12,6 @@
     padding-left: 5%;
     padding-right: 5%;
     color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
 }
