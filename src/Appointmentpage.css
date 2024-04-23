@@ -1,0 +1,45 @@
+.appointpagemaincontent{
+    width: 55%;
+    height: 80%;
+    background-color: lightblue;
+    
+}
+
+.appointpagebox66{
+    width: 24%;
+    height: 4%;
+    
+    padding-right: 20%;
+    padding-top: 3%;
+}
+.appointpagemaincontent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.appontinputl66{
+    height: 30px;
+    width: 170%;
+}
+.afterfelx{
+    padding-left: 1.8%;
+}
+
+.appontinputl55{
+    width:50.5%;
+    height: 30px;
+}
+
+.totalappointpage{
+    background-color: lightblue;
+}
+
+.phonenumdiv{
+    width: 20%;
+    margin-left: 80%;
+    height: 40%;
+    background-color: red;
+    border: 1px black solid;
+   
+}
