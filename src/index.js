@@ -36,16 +36,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>   
     
-    <Navbar/>
-    <Home/>
-    
-    <Speciality/>
-    <About/>
-    <Features/>
-    <Marque/>
-    <Treat/>
-    <Para1/>
-    <Info/>
+   
+    <Appointmentpage/>
   </React.StrictMode>
 );
 

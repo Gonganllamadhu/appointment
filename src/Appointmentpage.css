@@ -1,7 +1,7 @@
 .appointpagemaincontent{
     width: 55%;
     height: 80%;
-    
+  
     
 }
 
@@ -21,34 +21,7 @@
 .appontinputl66{
     height: 30px;
     width: 170%;
-    outline: 0;
-    border: 2;
-    border-bottom: 1px solid rgb(8, 8, 7);
-    background: transparent;
-    font-size: 2em;
-    transition: 0.3s ease;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    
-    
 }
-
-
-
-
-.appontinputl66:focus {
-    outline: none;
-    
-    border-bottom: 1px solid rgb(220, 130, 27);
-    text-decoration: underline;
-    
-    
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-  }
-  
 .afterfelx{
     padding-left: 1.8%;
 }
@@ -57,9 +30,14 @@
     width:50.5%;
     height: 30px;
 }
+#khkhkhkj{
+    width:50.5%;
+    height: 30px;
+    
+}
 
 .totalappointpage{
-    
+    background-color: lightblue;
 }
 
 .phonenumdiv{
