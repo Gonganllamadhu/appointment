@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Image from './Docsym.jpg';
 
-function App() {
+function App(props) {
   return (
+    
     
     <div className="App">
       

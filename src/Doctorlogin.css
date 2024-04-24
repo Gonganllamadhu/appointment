@@ -1,0 +1,45 @@
+.docloginpage{
+    width: 13%;
+    height: 50%;
+    background-color: white;
+    border: 1px black solid;
+    margin-left: 65%;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 10%;
+ 
+   
+}
+.docloginput{
+    height: 25px;
+}
+.docloglabel{
+    color: black;
+}
+
+.docloginpage:hover{
+    border-color: orange;
+    color: orange;
+}
+
+.docloginput:hover{
+    border-color: orange;
+}
+
+.docloginput:focus{
+    border-color: orange;
+}
+
+.doclogbut{
+    background-color: white;
+    border: 1px black solid;
+}
+
+.doclogbut:hover{
+    background-color: black;
+    color: white;
+}
+
+

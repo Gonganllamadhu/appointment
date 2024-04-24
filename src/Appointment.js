@@ -55,7 +55,7 @@ function Appointment(){
                 </select>
                 <br/><br/>
                 <label>Health Issue / Message</label><br/>
-                <input></input> <br/><br/>
+                <input className='appinput765'></input> <br/><br/>
                 <button>SEND</button>
             
             
