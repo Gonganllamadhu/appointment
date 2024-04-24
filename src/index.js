@@ -22,6 +22,7 @@ import Treatment from './Treatment';
 import Copyright from './Copyright';
 import Marque from './Marquee';
 import Flowname from './Flowname';
+import Blackbox from './Blackbox';
 
 
 import Appointmentpage from './Appointmentpage';
@@ -31,7 +32,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>   
   <Navbar/>
-  
+
+
   <Home/>
 
   <Speciality/>
@@ -39,12 +41,14 @@ root.render(
   <About />
 
   <Treat />
+  <Blackbox />
   <Marque />
+  
   <Para1/>
   
 
 
-
+  
   <Info/>
   <Copyright />
 
