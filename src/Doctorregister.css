@@ -1,0 +1,47 @@
+#docrigmain{
+    width: 100%;
+    height: 50%;
+    border: 1px black solid;
+    margin-left: 3%;
+    
+}
+
+#docriginside{
+    width: 60%;
+    height: 50%;
+    border: 1px black solid;
+}
+.docreginp33{
+   height: 25px;
+   width: 300px;
+   padding-left: 2%;
+   margin-left: 5%;
+   border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.docreglab22{
+    height: 25px;
+    color: black;
+    padding-left: 5%;
+}
+.docreginp33:hover{
+    border-color: orange;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+.docreginp33:focus{
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+#docrigbut44{
+    color: black;
+    background-color: white;
+}
+.docrigbut44:hover{
+    color: white;
+    background-color: black;
+}

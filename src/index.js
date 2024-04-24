@@ -18,14 +18,14 @@ import About from './About';
 import Features from './Features';
 import Treatment from './Treatment';
 import Appointmentpage from './Appointmentpage';
-
+import Doctorlogin from './Doctorlogin';
+import Doctoropenpage from './Doctoropenpage';
+import Doctorregister from './Doctorregister';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>   
-  <Navbar/>
-  <Home/>
-  <Appointmentpage/>
-  <Info/>
+    <Doctorregister/>
+    <Info/>
   </React.StrictMode>
 );
 
