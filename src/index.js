@@ -13,11 +13,19 @@ import Para1 from './Para1';
 
 import Speciality from './Speciality';
 import Treat from './Treat';
+
 import Appointment from './Appointment'
 import About from './About';
 import Features from './Features';
 import Treatment from './Treatment';
+
+import Copyright from './Copyright';
+import Marque from './Marquee';
+import Flowname from './Flowname';
+
+
 import Appointmentpage from './Appointmentpage';
+<<<<<<< HEAD
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
@@ -26,6 +34,31 @@ root.render(
   <React.StrictMode>   
     <Doctorregister/>
     <Info/>
+=======
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>   
+  <Navbar/>
+  
+  <Home/>
+
+  <Speciality/>
+  <Features />
+  <About />
+
+  <Treat />
+  <Marque />
+  <Para1/>
+  
+
+
+
+  <Info/>
+  <Copyright />
+
+>>>>>>> fd273ae7af31f7ff04ddd4714e2a0d00d85ce3ac
   </React.StrictMode>
 );
 

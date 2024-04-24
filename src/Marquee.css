@@ -1,0 +1,38 @@
+
+.inmarquee{
+    text-align: center;
+}
+.hpic1{
+   padding-left: 30px;
+    padding-right: 120px;
+    
+}
+.hpic2{
+   padding-left: 30px;
+   padding-right: 120px;
+}
+.hpic3{
+    padding-left: 30px;
+    padding-right: 120px;
+}
+.hpic4{
+    padding-left: 30px;
+    padding-right: 120px;
+}
+.hpic5{
+    padding-left: 30px;
+    padding-right: 120px;
+}
+.hpic6{
+    padding-left: 30px;
+    padding-right: 120px;
+}
+
+#commonpicid{
+    width: 22%;
+    height: 50%;
+    padding-top: 15px;
+    border: 1px solid black;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
