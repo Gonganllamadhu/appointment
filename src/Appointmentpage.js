@@ -12,7 +12,7 @@ function Appointmentpage(){
                 <div className="appointpagebox66"><label className="appointlabel66">phone</label><input className="appontinputl66"></input></div>
                 <div className="appointpagebox66"><label className="appointlabel66">Email</label><input className="appontinputl66"></input></div>
                 <div className="appointpagebox66"><label className="appointlabel66">Preferred Date</label><input className="appontinputl66" type="date"></input></div>
-                <div className="appointpagebox66"><label className="appointlabel66">Preferred Time</label><input className="appontinputl66" type="time"></input></div>
+                <div className="appointpagebox66"><label className="appointlabel66">Preferred Time </label><input className="appontinputl66" type="time"></input></div>
 
             </div>
                 <div className="afterfelx">
