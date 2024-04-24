@@ -26,6 +26,16 @@ import Blackbox from './Blackbox';
 
 
 import Appointmentpage from './Appointmentpage';
+<<<<<<< HEAD
+import Doctorlogin from './Doctorlogin';
+import Doctoropenpage from './Doctoropenpage';
+import Doctorregister from './Doctorregister';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>   
+    <Doctorregister/>
+    <Info/>
+=======
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -52,6 +62,7 @@ root.render(
   <Info/>
   <Copyright />
 
+>>>>>>> fd273ae7af31f7ff04ddd4714e2a0d00d85ce3ac
   </React.StrictMode>
 );
 
