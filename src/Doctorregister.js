@@ -7,23 +7,17 @@ function Doctorregister(){
 
         <div id="docrigmain">
             <div id="docriginside">
-                <label className="docreglab22"><b>Register</b></label><br/><br/>
-                <label className="docreglab22">Name</label><br/>
+                <label className="docreglab22"><b><ins>Register</ins></b></label><br/><br/>
+                <label className="docreglab22">Enter Username</label><br/>
                 <input className="docreginp33"></input><br/>
-                <label className="docreglab22">Speciality</label><br/>
-                <input className="docreginp33"></input><br/>
-                <label className="docreglab22">Hospital Name</label><br/>
-                <input className="docreginp33"></input><br/>
+                
                 <label className="docreglab22">Email</label><br/>
                 <input className="docreginp33"></input><br/>
-                <label className="docreglab22">Phone</label><br/>
-                <input className="docreginp33"></input><br/>
-                <label className="docreglab22">Employee ID</label><br/>
-                <input className="docreginp33"></input><br/>
+                
                 <label className="docreglab22">Password</label><br/>
                 <input className="docreginp33"></input><br/>
                 <label className="docreglab22">Confirm Password</label><br/>
-                <input className="docreginp33"></input><br/>
+                <input className="docreginp33"></input><br/><br/>
                 <button id="docrigbut44">Register</button>
 
             </div>

@@ -32,12 +32,12 @@ import Appointmentpage from './Appointmentpage';
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
+import Doctotalpage from './Doctotalpage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>   
+  <React.StrictMode>
     
-   
-    <Appointmentpage/>
+  <Appointmentpage/>
   </React.StrictMode>
 );
 

@@ -5,13 +5,8 @@ function Appointment(){
     
     return(
         <div className='appointmentpage'>
-            <div className="appointbar">
-                aaaaa
-
-            </div>
-            <br/> <br/>
-                <center><label id='appointlabel'>Request An Appointment</label></center>
-            <br/> <br/>
+            
+                
             <div className='appointform'>
                 <div className='appointboxmain'>
 
@@ -37,10 +32,8 @@ function Appointment(){
                     <label className='appointlabel12'>Preffered Date</label><br/>
                     <input type='date'></input> 
                 </div>
-                <div className='appointbox1'>
-                    <label className='appointlabel12'>Preffered Time</label><br/>
-                    <input type='Time'></input>
-                </div>
+                
+            
     
                 </div><br/>
            
@@ -63,9 +56,7 @@ function Appointment(){
 
             </div>
 
-            <div className='phonenumberdiv'>0000000000000
-
-            </div>
+            
 
         </div>
 

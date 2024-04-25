@@ -1,13 +1,14 @@
 .docopenpage{
-    width: 60%;
-    height: 50%;
+    
     background-color: white;
-    border: 1px black solid;
+   
 }
 
 .aboutdocpage{
     margin-left: 6%;
 }
-#caducusid{
-    padding-left:50px;
+
+#welcomestar2{
+    width: 20px;
+    height: 20px;
 }
