@@ -1,72 +1,108 @@
-.appointbar{
+
+.main2323page{
+    width: 340px;
+    height: 500px;
+    border: 2px black solid;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+
+}
+.main2323page:hover{
+   
+    border: 2px solid orange;
+
+}
+
+.total232appoint{
     width: 100%;
-    height: 50%;
-    background-color: orange;
+    height: 700px;
+    border: 1px black solid;
 
 }
-
-#appointlabel{
-    color: black;
-    font-weight: 500;
-    font-size: xx-large;
-}
-
-.appointform{
-    width: 50%;
-    background-color: rgb(195, 220, 102);
-    height: 50%;
-    margin-left: 10%;
-}
-.appointboxmain{
-    width: 90%;
-    color: green;
-    height: 50%;
-}
-
-.appointbox1{
-    width: 50%;
-    height: 5%;
-}
-
-.appointboxmain{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.appointboxmain22{
-    width: 90%;
-    color: green;
-    height: 50%;
-
-}
-
-.appointboxmain22{
+.total232appoint{
     display: flex;
-    justify-content: space-between;
 }
 
-.appointbox22{
-    width: 40%;
-    height: 5%;
-
+.input2323app{
+    border: 0px;
+    border-bottom: 1.8px black solid;
+    width: 300px;
 }
 
-.phonenumberdiv{
+#input32appo{
+    border: 1px solid black;
+    height: 30px;
     background-color: black;
     color: white;
-    width: 30%;
-    height: 50%;
+}
+
+#input32appo:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+#input32appo:active{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.input2323app:hover{
+
+    border: 0px;
+    border-bottom: 1.8px orange solid;
+}
+
+.input2323app:focus{
+    outline:none;
+    background-color: transparent;
+    border: 0px solid;
+    border-bottom: 1px orange solid;
+    transition: ease 0.3s;
+}
+
+#btn8787app{
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
     
 }
 
-.appinput765{
-    outline: 0;
-    border: 2;
-    border-bottom: 1px solid orange;
-    background: transparent;
-    font-size: 2em;
-    transition: 0.3s ease;
+#btn8787app:hover{
+    color: black;
+    background-color: orange;
+}
+
+#phone2323appoint{
+    width: 400px;
+    height: 300px;
+    border: 1px black solid;
+    margin-left: 200px;
+    margin-top: 100px;
+   
+}
+
+#numflipkk:hover{
+    transform: translate(-50%, -50%);
+    animation: moveAndRotate 1s infinite;
 
 }
 
+@keyframes moveAndRotate {
+    0% {
+        transform: translate(0, 0) rotate(0);
+    }
+   
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
+
+#phone2323appoint{
+    background-color: black;
+    color: white;
+}
+
+#phone2323appoint:hover{
+    background-color: orange;
+    color: black;
+}

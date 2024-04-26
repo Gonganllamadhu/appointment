@@ -33,11 +33,12 @@ import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
+import Sidebar from './Practice';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-  <Appointmentpage/>
+  <Sidebar/>
   </React.StrictMode>
 );
 
