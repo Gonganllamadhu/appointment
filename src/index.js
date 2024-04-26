@@ -37,16 +37,25 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
-  <React.StrictMode>   
- 
-  <Adjustpvn />
+  <React.StrictMode>
+  <Home />
+  <Navbar />
+  <Marque />
+  <About />
+  <Treat />
+  <Doctoropenpage />
+  <Speciality />
+  <Features />
+  <Para1 />
+  <Info />
+  
   
   
   
 
  
-
-
+  
+  <Copyright />
   </React.StrictMode >
 );
 

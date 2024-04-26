@@ -1,9 +1,13 @@
 .docopenpage{
     
-    width: 60%;
-    height: 50%;
+    width: 800px;
+    height: 1200px;
+    float: left;
     background-color: white;
     border: 1px black solid;
+}
+.totaldtr1234{
+    width: 600px;
 }
 
 .aboutdocpage{
@@ -11,4 +15,10 @@
 }
 #caducusid{
     padding-left:50px;
+}
+#doctorlogged{
+    padding-left: 1300px;
+    padding-right: 30px;
+    margin-top: 100px;
+
 }
