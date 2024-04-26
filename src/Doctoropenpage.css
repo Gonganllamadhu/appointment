@@ -1,14 +1,35 @@
 .docopenpage{
     
+<<<<<<< HEAD
+    width: 800px;
+    height: 1200px;
+    float: left;
+=======
+>>>>>>> 9d7c55d173c39541e62738d83af5a574186c72d5
     background-color: white;
    
+}
+.totaldtr1234{
+    width: 600px;
 }
 
 .aboutdocpage{
     margin-left: 6%;
 }
+<<<<<<< HEAD
+#caducusid{
+    padding-left:50px;
+}
+#doctorlogged{
+    padding-left: 1300px;
+    padding-right: 30px;
+    margin-top: 100px;
+
+}
+=======
 
 #welcomestar2{
     width: 20px;
     height: 20px;
 }
+>>>>>>> 9d7c55d173c39541e62738d83af5a574186c72d5
