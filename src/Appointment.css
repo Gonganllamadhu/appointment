@@ -60,3 +60,13 @@
     
 }
 
+.appinput765{
+    outline: 0;
+    border: 2;
+    border-bottom: 1px solid orange;
+    background: transparent;
+    font-size: 2em;
+    transition: 0.3s ease;
+
+}
+
