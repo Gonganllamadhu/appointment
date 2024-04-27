@@ -33,7 +33,7 @@ import Appointmentpage from './Appointmentpage';
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
-<<<<<<< HEAD
+
 import Adjustpvn from './Adjustpvn';
 
 
@@ -42,34 +42,20 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
+    <Navbar />
   <Home />
-  <Navbar />
+  
   <Marque />
   <About />
   <Treat />
-  <Doctoropenpage />
+  
   <Speciality />
   <Features />
   <Para1 />
   <Info />
-  
-  
-  
-  
-
- 
-  
   <Copyright />
   </React.StrictMode >
-=======
-import Doctotalpage from './Doctotalpage';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    
-  <Appointmentpage/>
-  </React.StrictMode>
->>>>>>> 9d7c55d173c39541e62738d83af5a574186c72d5
+
 );
 
 // If you want to start measuring performance in your app, pass a function

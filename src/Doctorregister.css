@@ -17,7 +17,7 @@
    height: 25px;
    width: 300px;
 
-=======
+}
 
 
 #docriginside{
@@ -43,7 +43,7 @@
     background-color: transparent;
     border: 0px solid;
     border-bottom: 1px black solid;
->>>>>>> 9d7c55d173c39541e62738d83af5a574186c72d5
+
 }
 .docreglab22{
 
@@ -53,11 +53,7 @@
 }
 .docreginp33:hover{
     border-color: orange;
-<<<<<<< HEAD
-   
-    border-left: 1px;
-    border-right: 1px;
-=======
+
     
 }
 .docreginp33:focus{
@@ -68,23 +64,23 @@
     transition: ease 0.3s;
    
    
->>>>>>> 9d7c55d173c39541e62738d83af5a574186c72d5
+
 }
 
 
 
 #docrigbut44{
-<<<<<<< HEAD
+
     color: white;
     background-color:blue;
-=======
+
     color: black;
     border: 1px black solid;
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     width: 70px;
->>>>>>> 9d7c55d173c39541e62738d83af5a574186c72d5
+
 }
 #docrigbut44:hover{
     color: white;
