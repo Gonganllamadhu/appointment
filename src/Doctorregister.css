@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 #docrigmain{
     width: 300px;
-    height: 250px;
+    height: 350px;
     padding-right: 20px;
     padding-left: 10px;
     
-    border: 1px black solid;
+   
     margin-top: 50px;
     float:right
     
@@ -13,23 +13,43 @@
 
 
 
-.docreginp33{
-   height: 25px;
-   width: 300px;
 
+
+#regiddoc12{
+    
+    border: 1px black solid;
+    background-color: black;
+    color: white;
 }
+
+#regiddoc12:hover{
+    background-color: orange;
+}
+
+#regiddoc12:active{
+    background-color: white;
+    color: black;
+}
+
 
 
 #docriginside{
     width: 290px;
-    height: 300px;
+    height: 350px;
     background-color: white;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 10px;
     margin-right: 15%;
     margin-bottom: 20px;
-    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+   
     
+}
+#docriginside:hover{
+    border-color: orange;
+    border: 2px solid orange;
 }
 .docreginp33{
    height: 25px;

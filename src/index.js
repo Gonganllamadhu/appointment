@@ -16,7 +16,7 @@ import Para1 from './Para1';
 import Speciality from './Speciality';
 import Treat from './Treat';
 
-import Appointment from './Appointment'
+import AppointmentForm from './Appointment'
 import About from './About';
 import Features from './Features';
 import Treatment from './Treatment';
@@ -33,6 +33,7 @@ import Appointmentpage from './Appointmentpage';
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
+import Doctotalpage from './Doctotalpage';
 
 import Adjustpvn from './Adjustpvn';
 
@@ -42,19 +43,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Navbar />
-  <Home />
+  <Navbar/>
+  <Doctoropenpage/>
+  <Home/>
   
-  <Marque />
-  <About />
-  <Treat />
-  
-  <Speciality />
-  <Features />
-  <Para1 />
-  <Info />
+ 
   <Copyright />
-  </React.StrictMode >
+  </React.StrictMode >   
 
 );
 

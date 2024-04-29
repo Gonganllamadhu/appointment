@@ -21,13 +21,7 @@ function Appointmentpage(){
                 <div className="appointpagebox66"><label className="appointlabel66">Preferred Date</label><br/>
                 <input type="date" id="khkhkhkj"></input></div> 
                     <label>Appointment for</label><br/>
-                    <select className="appontinputl55" id="khkhkhkj">
-                        <option>Select one option</option>
-                        <option>Dr. </option>
-                        <option></option>
-                        <option></option>
-
-                    </select> <br/>
+                    
                     <label>Health Issue / Message</label><br/>
                     <input  id="khkhkhkj"></input><br/><br/>
                     

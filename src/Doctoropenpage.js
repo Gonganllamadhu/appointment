@@ -8,7 +8,7 @@ import Doctorregister from "./Doctorregister";
 function Doctoropenpage(){
     return(
         <div className="totaldtr1234">
-            <div id="doctorlogged"><Doctorregister /></div>
+           
         <div className="docopenpage">
             <center><h1 >WELCOME TO STAR HOSPITAL</h1><br/><br/></center>
             <img src={pic}  width={800} height={400}></img> <br/>
@@ -18,6 +18,7 @@ function Doctoropenpage(){
 
             
         </div>
+        <div id="doctorlogged"><Doctorregister /></div>
         
         </div>
     )
