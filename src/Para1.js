@@ -4,7 +4,6 @@ import "./Para1.css"
 class CoreValues extends React.Component {
   render() {
     return (
-      
       <div className='paramaindiv'>
         
         <div className="value1">

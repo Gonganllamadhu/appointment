@@ -1,0 +1,24 @@
+
+.pblackbox{
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+
+#ppic:hover{
+    transform: scale(1.5);
+}
+#pnbr{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+#phelp{
+    color: white;
+}
