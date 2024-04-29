@@ -1,14 +1,32 @@
 import React from 'react';
 import Logorreg from './logorreg';
 import './Home.css';
-import Starlogo from './Starlogo.png'
+import Starlogo from './Starlogo.png';
+import { useState,useEffect } from 'react';
 
 function Home() {
+  let  [loggedin,setloggedin] = useState(false)
+
+  useEffect(()=>{
+    const token =localStorage.getItem('token');
+    if(token){
+      setloggedin(true);
+    }
+  },[])
+
   return (
     <div className='home123'>
-      <div id='logorreg'>
-        <Logorreg />
-      </div>
+      <div className='home123'>
+        { !loggedin ? (
+            <div id='logorreg'>
+                <Logorreg />
+            </div>
+        ) : (
+            <div className='home123'>
+                <h1>You are logged in successfully</h1>
+            </div>
+        )}
+    </div>
       <div className='content12'>
         <div className="logo-and-text">
             <img src={Starlogo} alt="Star Logo" height={100} width={100} />

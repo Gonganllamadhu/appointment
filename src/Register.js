@@ -1,6 +1,8 @@
 import './Register.css';
 import { useState } from 'react';
 import axios from "axios";
+import { useHistory } from 'react-router-dom';
+
 
 function Register({setShowLogin}){
     let [username,setusername] =useState('')
@@ -9,8 +11,7 @@ function Register({setShowLogin}){
     let [email,setemail] = useState('')
     let [error,setError] = useState('')
 
-    let Registeruser=(e)=>{
-        e.preventDefault();
+    let Registeruser=()=>{
 
         let userdetails={
             'username':username,
@@ -19,6 +20,7 @@ function Register({setShowLogin}){
         }
         axios.post('http://127.0.0.1:8000/signin/signup/',userdetails).then((resp)=>{
             console.log(resp.data)
+
         }).catch((error)=>{
             if (error.response && error.response.data && error.response.data.username) {
                 if (error.response.data.username[0] === 'A user with that username already exists.') {
