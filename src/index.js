@@ -12,7 +12,6 @@ import Register from './Register';
 
 
 import Para1 from './Para1';
-
 import Speciality from './Speciality';
 import Treat from './Treat';
 
@@ -44,12 +43,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Navbar/>
-  <Doctoropenpage/>
+
   <Home/>
-  
+  <AppointmentForm />
  
   <Copyright />
-  </React.StrictMode >   
+  <Navbar/>
+
+
+  </React.StrictMode>
 
 );
 

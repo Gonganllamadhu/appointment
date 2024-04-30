@@ -23,7 +23,7 @@
     padding-top: 40px;
 
 }
-button{
+#button{
     margin-left: 50px;
     width: 60px;
     height: 20px;
@@ -39,7 +39,7 @@ h6{
 a:hover{
     color:rgb(187, 51, 194);
 }
-button:hover{
+#button:hover{
     background-color: rgb(63, 63, 108);
     color: white;
 }
@@ -60,7 +60,7 @@ a{
     color: white;
 
 }
-button:active{
+#button:active{
     color: rgb(239, 222, 44);
     background-color: black;
 }
