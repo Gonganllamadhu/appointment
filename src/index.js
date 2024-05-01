@@ -23,24 +23,29 @@ import Blackbox from './Blackbox';
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
+import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Navbar />
-  <Home />
-  <Marque />
-  <About />
-  <Treat />
-  <Speciality />
-  <Appointment />
-  <Features />
-  <Para1 />
-  <Info />
+  <Navbar/>
+  <Home/>
+  <Speciality/>
+  <Marque/>
+  <About/>
+  <Features/>
+  <Para1/>
+  <Treat/>
+  <Treatment/>
+  <Info/>
+  <Appointment/>
   </React.StrictMode>
-)
+
+);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

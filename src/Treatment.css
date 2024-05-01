@@ -1,6 +1,7 @@
 .bigbox{
     width: 100%;
     height: 50%;
+    border: 1px solid black;
     
 
 }
@@ -14,6 +15,7 @@
     height: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
+    border: 1px solid black;
 }
 .sboxcenter:hover{
     transform: scale(1.2);

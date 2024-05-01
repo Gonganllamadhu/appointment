@@ -8,7 +8,7 @@ function Doctotalpage(){
         <div>
         <div className="app-container">
             <div className="doc98767"><Doctoropenpage/></div>
-            <div className="hjuh7654"><Doctorlogin/></div>
+            
 
         </div>
         <div id='aboutandvalues11'>

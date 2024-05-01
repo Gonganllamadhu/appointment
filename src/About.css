@@ -1,17 +1,20 @@
 .t1{
-    padding-left: 5%;
+    padding-left: 4%;
     padding-right: 5%;
-    width: 85%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+    font-family:verdana;
     line-height: 25px;
 }
 .t2{
     font-size: xx-large;
     font-weight: 600;
     
-    padding-left: 5%;
+    padding-left: 4%;
     padding-right: 5%;
     color: black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:verdana;
     line-height: 25px;
+}
+#abouttotal123{
+    margin-top: 60px;
 }

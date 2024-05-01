@@ -1,7 +1,5 @@
 import React from "react";
-
-
-
+import { faAmbulance } from '@fortawesome/free-solid-svg-icons';
 import './Features.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserMd } from '@fortawesome/free-solid-svg-icons';
@@ -32,9 +30,9 @@ function Features(){
             </div>
             <div className="feabox"><center className="feaicon">
 
-                <FontAwesomeIcon icon={faStethoscope} size="3x" color="green" /></center>
+            <FontAwesomeIcon icon={faAmbulance} size='3x' color='green' /></center>
 
-                <br/><br/><center><label id="fealabel1">Trusted <br/> Doctors</label></center>
+                <br/><br/><center><label id="fealabel1">24/7<br/> Emergency<br/>Care</label></center>
             </div>
 
         </div>

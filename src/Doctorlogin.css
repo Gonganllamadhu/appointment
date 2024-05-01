@@ -2,7 +2,7 @@
     width: 240px;
     height: 300px;
     background-color: white;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 10px;
     margin-right: 15%;
     margin-bottom: 20px;  
@@ -11,13 +11,13 @@
     height: 25px;
     background-color: transparent;
     border: 0px solid;
-    border-bottom: 1px black solid;
+    border-bottom: 2px black solid;
 }
 .docloginput:focus{
     outline:none;
     background-color: transparent;
     border: 0px solid;
-    border-bottom: 1px orange solid;
+    border-bottom: 2px orange solid;
     transition: ease 0.3s;
    
 
@@ -40,13 +40,20 @@
 }
 
 .doclogbut{
-    background-color: white;
-    border: 1px black solid;
+    background-color: black;
+    border: 2px black solid;
+    color: white;
 }
 
 .doclogbut:hover{
-    background-color: black;
+    background-color: orange;
     color: white;
+   
+}
+
+.doclogbut:active{
+    background-color: white;
+    color: black;
 }
 
 .loginpage777777{

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'sigin',
+    'Appointmentapp',
 ]
 
 MIDDLEWARE = [
@@ -81,13 +82,14 @@ WSGI_APPLICATION = 'healthdj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'class9am',
+        'NAME': 'madhu1234',
         'USER':'root',
-        'PASSWORD':'Pranai@123',
+        'PASSWORD':'Pavan@326',
         'HOST':'localhost',
-        'PORT':3306,
+        'PORT':3306 
     }
 }
+
 
 
 # Password validation
@@ -142,3 +144,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 # settings.py
 APPEND_SLASH = False
+
+
+EMAIL_BACKENDS = 'django.core.mail.backends.smtp.EMAILBACKEND'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_USE_PORT = 587
+EMAIL_HOST_USER = 'pavantalwar58@gmail.com'
+EMAIL_HOST_PASSWORD = 'quqw nmiu jbnd knqv'

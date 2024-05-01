@@ -21,6 +21,21 @@ const [loggedin, setloggedin] = useState(false)
         <div className="Navbar">
             <div className="left "><a href="/" id="navbara"><FontAwesomeIcon icon={faHouse} size="5px"/></a></div>
             <div className="right">
+
+                    <label>Doctors</label>
+
+                    <div class="dropdownlogin">                   
+                   <label class="dropbtnlogin">Login</label>                   
+                    <div class="dropdown-contentlogin">
+                      
+                        <a href="#">Login as Patient</a>
+                        <a href="#">Login as Doctor</a>
+                      
+                    </div>
+                    </div>
+
+
+
                 {loggedin && <a>Doctors</a>}
                 <a href="" id="navbara">About</a>
                 {loggedin ? <a href="/profile" id="navbara">
@@ -34,6 +49,17 @@ const [loggedin, setloggedin] = useState(false)
                         </div>
                 </div></a> : <a href="/login" id="navbara">Login</a>}
                 {/*{loggedin && <a onClick={(handleLogout)}>Logout</a>}*/}
+
+
+                <div class="dropdownlogin">                   
+                   <label class="dropbtnlogin">Profile</label>                   
+                    <div class="dropdown-contentlogin">
+                      
+                        <a href="#">Appointments</a>
+                        <a href="#">Logout</a>
+                      
+                    </div>
+                    </div>
                 
             </div>
         </div>

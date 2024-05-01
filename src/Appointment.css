@@ -11,6 +11,7 @@
 .main2323page:hover{
    
     border: 2px solid orange;
+    
 
 }
 
@@ -73,12 +74,23 @@
 }
 
 #phone2323appoint{
-    width: 400px;
-    height: 300px;
+    width: 420px;
+    height: 420px;
     border: 1px black solid;
     margin-left: 200px;
     margin-top: 100px;
    
+}
+
+#phoneinside3232{
+    width: 300px;
+    height: 330px;
+    margin: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+    
+    border: 1px white dashed;
 }
 
 #numflipkk:hover{
@@ -100,9 +112,7 @@
 #phone2323appoint{
     background-color: black;
     color: white;
+
 }
 
-#phone2323appoint:hover{
-    background-color: orange;
-    color: black;
-}
+

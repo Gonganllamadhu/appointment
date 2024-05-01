@@ -1,29 +1,19 @@
 .docopenpage{
-    width: 800px;
-    height: 1200px;
-    float: left;
     background-color: white;
    
 }
 .totaldtr1234{
     width: 600px;
+    padding-top: 60px;
 }
-
-.aboutdocpage{
-    margin-left: 6%;
-}
-
-#caducusid{
-    padding-left:50px;
+.totaldtr1234{
+    display: flex;
 }
 #doctorlogged{
-    padding-left: 1300px;
+    
     padding-right: 30px;
     margin-top: 100px;
+    padding-left: 85px;
 
 }
 
-#welcomestar2{
-    width: 20px;
-    height: 20px;
-}
