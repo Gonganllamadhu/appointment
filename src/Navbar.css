@@ -4,11 +4,14 @@
 }
 
 .Navbar{
-    background-color: rgb(74, 132, 186);
+    background-color: orange;
     height: 60px;
-    width: 100%;
+    width: 90%;
     position: fixed;
     z-index: 2;
+    margin-top: 10px;
+    border-radius: 35px;
+    margin-left: 5%;
 
 }
 .left{
@@ -37,6 +40,8 @@ a{
 }
 #navbara:hover{
     color: white;
+    border-bottom: 1px black solid;
+    transition: ease 0.2s;
 }
 #logo{
     padding-bottom: 20px;
@@ -48,12 +53,21 @@ a{
     padding-top: 20px;
 }
 
+.dropbtnlogin{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+    width: 30px;
 
 
-.dropdown {
+}
+
+.dropdownlogin {
     
     position:relative;
     display: inline-block;
+    margin-left: 30px;
+    margin-right: 40px;
   }
   
   .dropdown-content {
@@ -82,4 +96,45 @@ a{
   }
   .dropdown-content a{
     text-align: center;
+  }
+
+
+  .dropdownlogin {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+
+  }
+
+  .dropdown-contentlogin {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+ 
+  .dropdown-contentlogin a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-contentlogin a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdownlogin:hover .dropdown-contentlogin {
+    display: block;
+  }
+
+  .dropbtnlogin:hover{
+    color: white;
+    border-bottom: 1px black  solid;
+    
+
   }

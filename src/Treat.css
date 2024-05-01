@@ -7,9 +7,7 @@
 .treatcontainer12{
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    
-    
+    flex-direction: row;  
 
 }
 

@@ -35,6 +35,7 @@ import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
 
 import Adjustpvn from './Adjustpvn';
+import Surgeries1 from './Surgeries1';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -43,12 +44,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Navbar/>
-
   <Home/>
-  <AppointmentForm />
- 
-  <Copyright />
-  <Navbar/>
+  <Speciality/>
+  <Marque/>
+  <About/>
+  <Features/>
+  <Para1/>
+  <Treat/>
+  <Treatment/>
+  <Surgeries1/>
+
+
 
 
   </React.StrictMode>

@@ -11,7 +11,11 @@ import pic7 from './pkdr12.png';
 function Marque(){
     return(
         <div className='mainmarquee'>
+            <div className='mainmarquee123'>
             <div className='inmarquee'><h1>Our Doctors</h1><br/></div>
+            <p>We have some of the best specialty doctors from around the world, they
+                 bring years of experience and offer evidence-based treatment to ensure the best care for you.</p>
+                 </div><br/>
         
             <div>
                 <Marquee>

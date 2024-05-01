@@ -1,7 +1,5 @@
 
-.inmarquee{
-    text-align: center;
-}
+
 .hpic1{
    padding-left: 30px;
     padding-right: 120px;
@@ -35,4 +33,17 @@
     border: 1px solid black;
     background-color: rgb(246, 246, 246);
     border-radius: 10px;
+}
+
+.mainmarquee123{
+    margin-left: 2.5%;
+    margin-right: 2%;
+   
+}
+.mainmarquee{
+    margin-top: 10px;
+    
+}
+.inmarquee{
+   
 }

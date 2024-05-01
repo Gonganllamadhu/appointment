@@ -2,7 +2,7 @@ import './About.css';
 function About(){
 
     return(
-        <><div>
+        <><div id='abouttotal123'>
             <label className='t2'>About Star Hospitals</label>
         </div><br></br>
         <div className="t1">

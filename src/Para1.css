@@ -20,14 +20,14 @@
 .value1:hover{
   background-color: lightblue;
   transform: scale(1.1);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 
 .value2:hover{
   background-color: lightblue;
   transform: scale(1.1);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .value3:hover{
