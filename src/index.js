@@ -36,6 +36,7 @@ import Doctotalpage from './Doctotalpage';
 
 import Adjustpvn from './Adjustpvn';
 import Surgeries1 from './Surgeries1';
+import Surgeries from './Surgeries';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -52,6 +53,7 @@ root.render(
   <Para1/>
   <Treat/>
   <Treatment/>
+  <Surgeries/>
   <Surgeries1/>
 
 

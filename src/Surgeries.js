@@ -23,9 +23,7 @@ class Surgeries extends React.Component {
         
         
         
-      
-
-          
+            
         </div>
         <div className="value33">
         <GiBrain style={{ fontSize: "2em" }} /><br/>
