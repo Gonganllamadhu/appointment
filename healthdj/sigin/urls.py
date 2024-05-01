@@ -4,5 +4,6 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns=[
     path('signup/',views.signup),
-    path('login/',obtain_auth_token)
+    path('login/',obtain_auth_token),
+    path('info/',views.patientappointment),
 ]

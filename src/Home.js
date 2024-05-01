@@ -1,14 +1,10 @@
 import React from 'react';
 import Logorreg from './logorreg';
 import './Home.css';
-<<<<<<< HEAD
 import Starlogo from './Starlogo.png';
 import { useState,useEffect } from 'react';
-=======
 import pic from './doctor group pic.png'
-
-import Starlogo from './Starlogo.png'
->>>>>>> cddb17c3d2d1fe6d27a5dc06f01c61eb9cb4e660
+import Blackbox from './Blackbox';
 
 function Home() {
   let  [loggedin,setloggedin] = useState(false)
@@ -28,8 +24,8 @@ function Home() {
                 <Logorreg />
             </div>
         ) : (
-            <div className='home123'>
-                <h1>You are logged in successfully</h1>
+            <div id='logorreg'>
+                <Blackbox/>
             </div>
         )}
     </div>
@@ -40,7 +36,7 @@ function Home() {
           </div>
         <p id='p1'>Center of excellence</p><br></br>
         <p id='p2'>Welcome to Star Hospitals, where compassionate care meets state-of-the-art technology. Our mission is to provide exceptional healthcare services to our community with integrity, compassion, and excellence.</p><br/>
-        <img src={pic}  width={800} height={400}></img> <br/>
+        <img src={pic}  width={720} height={400}></img> <br/>
         <h2 id='h1'>Medical Team</h2><br/>
         <p id='p3'>Our team of highly skilled doctors, nurses, and support staff are dedicated to providing personalized care to every patient. With years of experience and advanced training in their respective fields, our healthcare professionals are committed to excellence.</p><br/>
         

@@ -5,3 +5,6 @@ class userserializer(ModelSerializer):
     class Meta:
         model=User
         fields=['username','password','email']
+
+
+        

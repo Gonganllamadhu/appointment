@@ -28,7 +28,8 @@ const [loggedin, setloggedin] = useState(false)
                         <a><FontAwesomeIcon icon={faUser} /> Profile</a>
                         <div class="dropdown-content">
                             <button >{loggedin && <a >Appointments</a>}</button>
-                            <button>login</button>
+                            <button>{loggedin && <a>login</a>}</button>
+                            <button>okkkk</button>
                             <button >{loggedin && <a onClick={(handleLogout)}>Logout</a>}</button>
                         </div>
                 </div></a> : <a href="/login" id="navbara">Login</a>}
