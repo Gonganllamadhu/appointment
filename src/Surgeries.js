@@ -12,6 +12,43 @@ import { BsLungs } from "react-icons/bs";
 class Surgeries extends React.Component {
   render() {
     return (
+
+
+      <div id='totalsurgerybox88'>
+      <div>
+
+      </div>
+      <div id='flexsurjjhh'>
+      <div className='fexboxsurgery111'>
+      <GiBrain style={{ fontSize: "2em" }} /><br/>
+        
+        <h2>Neurology</h2><br></br>
+        <p>
+        Neurology is a branch of medicine concerned with the
+         study and treatment of disorders related to the nervous system.
+
+        
+        </p>
+    
+   
+     </div>
+
+     <div className='fexboxsurgery111'>
+    
+   
+     </div>
+
+     <div className='fexboxsurgery111'>
+    
+   
+     </div>
+           
+      </div >
+      
+      
+
+
+     
         <div id='surgeriestotal'>
             <div className='insidesurgery32'>
                 <h1>Our Specialities</h1><br/>
@@ -24,17 +61,9 @@ class Surgeries extends React.Component {
         
         
             
-        </div>
+       
         <div className="value33">
-        <GiBrain style={{ fontSize: "2em" }} /><br/>
         
-          <h2>Neurology</h2><br></br>
-          <p>
-          Neurology is a branch of medicine concerned with the
-           study and treatment of disorders related to the nervous system.
-
-          
-          </p>
         </div>
         <div className="value11">
         <GiKneeCap style={{ fontSize: "2em" }}/>
@@ -58,6 +87,7 @@ class Surgeries extends React.Component {
           Pulmonology a branch of medicine concerned with the anatomy, physiology, and pathology of the lungs
          
           </p>
+          </div>
 
           
         </div>
