@@ -26,7 +26,7 @@ let patientinfo=(d)=>{
 
     let patientdetails={
         'pname':pname,
-        'pgname':
+        'pgname':gname
     };
 
 }
