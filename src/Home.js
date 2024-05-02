@@ -26,13 +26,14 @@ function Home() {
             </div>
         ) : (
             <div id='logorreg'>
-                <Blackbox/>
+              
+                
             </div>
         )}
     </div>
       <div className='content12'>
         <div className="logo-and-text">
-            <img src={Starlogo} alt="Star Logo" height={100} width={100} />
+            <img src={Starlogo} alt="Star Logo" height={200} width={170} />
             <h1 id='starhospitalid'>Star Hospitals</h1>
           </div>
         <p id='p1'>Center of excellence</p><br></br>

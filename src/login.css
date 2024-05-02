@@ -6,15 +6,18 @@
     border: 1px solid black;
     border-radius: 15px;
     float: right;
-    margin-right: 15%;   
+    
+    margin-left: 50px;  
     margin-bottom: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
 }
 .login:hover{
     border: 1.5px rgb(239, 222, 44) solid;
     
 }
 .content{
-    padding-left: 35px;
+    padding-left: 20px;
     padding-top: 40px;
 
 }

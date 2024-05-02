@@ -4,7 +4,7 @@
 }
 
 .Navbar{
-    background-color: rgb(74, 132, 186);
+    background-color: rgb(240, 222, 25);
     height: 60px;
     width: 90%;
     position: fixed;
@@ -40,7 +40,6 @@ a{
 }
 #navbara:hover{
     color: white;
-    border-bottom: 1px black solid;
     transition: ease 0.2s;
 }
 #logo{
@@ -54,7 +53,7 @@ a{
 }
 
 .dropbtnlogin{
-    padding-left: 10px;
+    
     padding-right: 10px;
     border: 0px;
     width: 30px;
@@ -66,7 +65,7 @@ a{
     
     position:relative;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-right: 40px;
   }
   
@@ -127,14 +126,10 @@ a{
     background-color: #f1f1f1;
   }
 
-  /* Show the dropdown menu on hover */
   .dropdownlogin:hover .dropdown-contentlogin {
     display: block;
   }
 
   .dropbtnlogin:hover{
-    color: white;
-    border-bottom: 1px black  solid;
-    
-
+    color: white
   }

@@ -1,0 +1,102 @@
+
+.value11{
+    text-align:center;
+    
+    text-align: start;
+
+    top: 90%;
+    color: rgb(42, 45, 44);  
+    height: 200px;
+    padding-inline: 50px;
+    margin:auto;
+    margin-top:40px;
+    width:300px;
+    padding:20px;
+    padding-left: 50px;
+
+    background-color: white;
+    color: rgb(171, 220, 236);
+    box-shadow:20px 20px 50px 10px rgb(216, 209, 211);
+    
+    
+  }
+  
+
+  
+  .value11:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+    border-radius: 25px;
+  }
+ 
+  
+  
+  .value22:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+    border-radius: 25px;
+  }
+
+  
+  .value33:hover{
+    background-color: rgb(171, 220, 236);
+    color: white;
+    transform: scale(1.1);
+    border-radius: 25px;
+  }
+  
+  
+  .value22{
+    
+    text-align: justify;
+   
+
+    top: 90%;
+    color: rgb(42, 45, 44);
+    height: 200px;
+    margin:auto;
+    margin-top:40px;
+    width:200px;
+    padding:20px;
+    background-color: white;
+    box-shadow:20px 20px 50px 10px rgb(216, 209, 211);
+    
+    
+  }
+
+  
+  .value33{
+    text-align:justify;
+ 
+    top: 90%;
+    color: rgb(61, 57, 57);
+    height: 200px;
+  
+    margin:auto;
+    margin-top:40px;
+    width:210px;
+    padding:20px;
+    background-color: white;
+    box-shadow:20px 20px 50px 10px rgb(216, 209, 211);
+  
+  }
+  
+  
+  .paramaindiv34{
+    width: 100%;
+    display: flex;
+  }
+
+#surgeryinside32{
+    border: 1px solid black;
+  }
+
+.insidesurgery32{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#surgeriestotal{
+  background-color: lightgray;
+  height: 500px;
+}
