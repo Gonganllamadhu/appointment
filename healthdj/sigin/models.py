@@ -11,3 +11,20 @@ class userdetails(models.Model):
         return self.username
     def __str__(self):
         return self.email
+
+class patientinfo(models.Model):
+    pname=models.CharField(max_length=30)
+    pgname=models.CharField(max_length=30)
+    pphone=models.CharField(max_length=15)
+    pemail=models.CharField(max_length=30)
+    pdate=models.DateField()
+    pdoctor=models.CharField(max_length=30)
+
+    def __str__(self):
+        return self.pname
+    def __str__(self):
+        return self.pgname  
+    def __str__(self):
+        return self.pemail  
+    def __str__(self):
+        return self.pdoctor        

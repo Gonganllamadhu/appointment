@@ -1,17 +1,11 @@
 .docloginpage{
-
     width: 240px;
     height: 300px;
     background-color: white;
     border: 2px black solid;
-
     border-radius: 10px;
     margin-right: 15%;
-    margin-bottom: 20px;
-  
-   
- 
-   
+    margin-bottom: 20px;  
 }
 .docloginput{
     height: 25px;

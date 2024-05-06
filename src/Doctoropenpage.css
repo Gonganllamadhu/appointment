@@ -1,5 +1,10 @@
 .docopenpage{
+<<<<<<< HEAD
     background-color: white;   
+=======
+    background-color: white;
+   
+>>>>>>> 85ab06dc4ccfc7e8adb3f79fa47b5a12ae6f911a
 }
 .totaldtr1234{
     width: 600px;
@@ -15,6 +20,7 @@
     padding-left: 85px;
 
 }
+<<<<<<< HEAD
 @media screen and (max-width: 500px) {
     .totaldtr1234{
         display: flex;
@@ -34,4 +40,6 @@
 
 }
 
+=======
+>>>>>>> 85ab06dc4ccfc7e8adb3f79fa47b5a12ae6f911a
 
