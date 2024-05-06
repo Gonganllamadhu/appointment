@@ -26,3 +26,14 @@
 .feaicon:hover{
     transform: scale(1.7);
 }
+.feabox:hover{
+   background-color: rgb(247, 247, 247);
+}
+
+@media only screen and (max-width: 500px) {
+    .feabox{
+        border: 1px solid black;
+        width: 100px;
+        height: 180px;
+    }
+}
