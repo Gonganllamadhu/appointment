@@ -10,6 +10,7 @@
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: white;
 }
 th, td {
     border: 1px solid black;
@@ -22,5 +23,11 @@ th {
 
 .appointment-container{
     border: 1px solid black;
-    background: linear-gradient(to right,white);
+   
+}
+.appointment-card{
+    background-color: lightgray;
+    border: 1px solid black;
+
+
 }
