@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.urls import path
-from . models import userdetails
+from . models import userdetails,patientinfo
 from rest_framework.decorators import api_view
-from .serializers import userserializer , patientserializer
+from .serializers import userserializer , patientserializer,AppointmentSerializer
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 from rest_framework.status import HTTP_201_CREATED,HTTP_400_BAD_REQUEST,HTTP_200_OK
@@ -37,3 +37,14 @@ def patientappointment(request):
     else:
         print(patient.errors)
         return Response(patient.errors,status=HTTP_400_BAD_REQUEST)
+    
+
+@api_view(['GET'])
+def fetch_appointments(request):
+    print("Hello")
+    appointments = patientinfo.objects.all()
+    print(appointments)
+    serializer = AppointmentSerializer(appointments, many=True)
+    print(serializer)
+    return Response(serializer.data, status=HTTP_200_OK)
+    

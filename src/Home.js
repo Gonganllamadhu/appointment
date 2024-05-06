@@ -5,7 +5,7 @@ import Starlogo from './Starlogo.png';
 import { useState,useEffect } from 'react';
 import pic from './doctor group pic.png'
 import Blackbox from './Blackbox';
-
+import { VideoPlayer } from './video';
 
 function Home() {
   let  [loggedin,setloggedin] = useState(false)
@@ -26,8 +26,7 @@ function Home() {
             </div>
         ) : (
             <div id='logorreg'>
-              
-                
+              <VideoPlayer/>
             </div>
         )}
     </div>

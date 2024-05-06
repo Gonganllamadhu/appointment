@@ -1,8 +1,7 @@
 import "./Navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect , useState } from "react";
-import { faHouse, faUser } from '@fortawesome/free-solid-svg-icons';
-
+import { faHouse, faUser, faCalendarAlt, faUserMd, faInfo } from '@fortawesome/free-solid-svg-icons';
 function Navbar(){
 const [loggedin, setloggedin] = useState(false)
     useEffect(()=>{
@@ -22,12 +21,11 @@ const [loggedin, setloggedin] = useState(false)
             <div className="left "><a href="/" id="navbara"><FontAwesomeIcon icon={faHouse} size="5px"/></a></div>
             <div className="right">
 
-                {loggedin && <a>Book an appointment</a>}
-                {loggedin && <a>Doctors</a>}
-                <a href="" id="navbara">About</a>
-                {loggedin ? <a href="/profile" id="navbara">
+                {loggedin && <a href="#"><FontAwesomeIcon icon={faCalendarAlt} /> Book an appointment</a>}
+                {loggedin && <a href="#"><FontAwesomeIcon icon={faUserMd} /> Doctors</a>}
+                <a href="#" id="navbara"><FontAwesomeIcon icon={faInfo} /> About</a>                {loggedin ? <a href="/profile" id="navbara">
                 <div class="dropdownlogin">                   
-                   <label class="dropbtnlogin">Profile</label>                   
+                <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /> Profile</label>                   
                     <div class="dropdown-contentlogin">
                       
                         <a href="#">Appointments</a>

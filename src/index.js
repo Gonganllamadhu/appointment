@@ -25,6 +25,7 @@ import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
+import MyAppointments from './myappointments';
 
 
 
@@ -40,8 +41,10 @@ root.render(
   <Para1/>
   <Treat/>
   <Treatment/>
-  <Info/>
+  <MyAppointments/>
   <Appointment/>
+  <Info/>
+  
   </React.StrictMode>
 
 );
