@@ -133,3 +133,40 @@ a{
   .dropbtnlogin:hover{
     color: white
   }
+
+ 
+
+  @media only screen and (max-width: 500px) {
+    #navbar54dynamic{
+      visibility: hidden;
+    }
+    
+.dropdownlogin {
+    
+  position:relative;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 1px;
+}
+.right{
+  font-size: large;
+  font-weight: 400;
+  float: right;
+  padding-top: 0px;
+}
+a{
+  margin-right: 0px;
+  color: black;
+  padding-top: 0px;
+  text-decoration: none;
+}
+.dropbtnlogin{
+    
+  padding-right: 0px;
+  border: 0px;
+  width: 0px;
+
+
+}
+
+  }

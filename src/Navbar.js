@@ -21,14 +21,14 @@ const [loggedin, setloggedin] = useState(false)
             <div className="left "><a href="/" id="navbara"><FontAwesomeIcon icon={faHouse} size="5px"/></a></div>
             <div className="right">
 
-                {loggedin && <a href="#"><FontAwesomeIcon icon={faCalendarAlt} /> Book an appointment</a>}
-                {loggedin && <a href="#"><FontAwesomeIcon icon={faUserMd} /> Doctors</a>}
-                <a href="#" id="navbara"><FontAwesomeIcon icon={faInfo} /> About</a>                {loggedin ? <a href="/profile" id="navbara">
+                {loggedin && <a href="#"><abbr title="Book an Appointment"><FontAwesomeIcon icon={faCalendarAlt} /></abbr> <label id="navbar54dynamic">Book an appointment</label></a>}
+                {loggedin && <a href="#"><abbr title="Doctors"><FontAwesomeIcon icon={faUserMd} /></abbr> <label id="navbar54dynamic">Doctors</label></a>}
+                <a href="#" id="navbara"><abbr title="About"><FontAwesomeIcon icon={faInfo} /></abbr> <label id="navbar54dynamic">About</label></a>                {loggedin ? <a href="/profile" id="navbara">
                 <div class="dropdownlogin">                   
-                <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /> Profile</label>                   
+                <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /> <label id="navbar54dynamic">Profile</label></label>                   
                     <div class="dropdown-contentlogin">
                       
-                        <a href="#">Appointments</a>
+                        <a href="#" >Appointments</a>
                         <a href="#"onClick={(handleLogout)}>Logout</a>
                       
                     </div>
