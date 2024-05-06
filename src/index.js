@@ -26,12 +26,8 @@ import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
-<<<<<<< HEAD
-import AppointmentForm from './Appointment';
 
-=======
 import MyAppointments from './myappointments';
->>>>>>> a5c2eecb8f280a3e0b4eb987ed41fb3c23109ce4
 
 
 
@@ -45,20 +41,12 @@ root.render(
   <About/>
   <Features/>
   <Para1/>
-<<<<<<< HEAD
-  <Doctoropenpage/>
-  <AppointmentForm/>
-  <Doctotalpage/>
-
-
-=======
   <Treat/>
   <Treatment/>
   <MyAppointments/>
   <Appointment/>
   <Info/>
   
->>>>>>> a5c2eecb8f280a3e0b4eb987ed41fb3c23109ce4
   </React.StrictMode>
 
 );
