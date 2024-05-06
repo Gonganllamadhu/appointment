@@ -18,3 +18,10 @@
 #abouttotal123{
     margin-top: 60px;
 }
+
+@media screen and (max-width: 500px) {
+    .t2{
+        font-size: medium;
+    }
+
+}

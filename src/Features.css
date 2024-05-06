@@ -26,3 +26,18 @@
 .feaicon:hover{
     transform: scale(1.7);
 }
+
+@media screen and (max-width: 500px) {
+    #fealabel1{
+        font-size:x-small;
+        font-weight: 200;
+    }
+    .feaicon:hover{
+        transform: scale(1.2);
+    }
+    .feaicon{
+        size: 2x;
+
+    }
+
+}

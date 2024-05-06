@@ -20,7 +20,18 @@ function Home() {
 
   return (
     <div className='home123'>
-      <div className='home123'>
+      
+      <div className='content12'>
+        <div className="logo-and-text">
+            <img id='starticonlogo' src={Starlogo} alt="Star Logo" height={100} width={100} />
+            <h1 id='starhospitalid'>Star Hospitals</h1><br/>
+           
+          </div>
+          <p id='p1'>Center of excellence</p><br></br>
+        
+        <img src={pic}  width={800} height={400}></img> <br/>
+        </div>
+        <div className='home123'>
         { !loggedin ? (
             <div id='logorreg'>
                 <Logorreg />
@@ -31,15 +42,6 @@ function Home() {
             </div>
         )}
     </div>
-      <div className='content12'>
-        <div className="logo-and-text">
-            <img src={Starlogo} alt="Star Logo" height={100} width={100} />
-            <h1 id='starhospitalid'>Star Hospitals</h1>
-          </div>
-        <p id='p1'>Center of excellence</p><br></br>
-        <img src={pic}  width={800} height={400}></img> <br/>
-        </div>
-
         <div id='homepagenew234'>
           <p id='p2'>Welcome to Star Hospitals, where compassionate care meets state-of-the-art technology. Our mission is to provide exceptional healthcare services to our community with integrity, compassion, and excellence.</p><br/>
         

@@ -27,7 +27,7 @@ import Flowname from './Flowname';
 import Blackbox from './Blackbox';
 
 
-import Appointmentpage from './Appointmentpage';
+import Responsenavbar from './Responsenavbar';
 
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
@@ -39,22 +39,25 @@ import Surgeries1 from './Surgeries1';
 import Surgeries from './Surgeries';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
   <React.StrictMode>
-  <Navbar/>
-  <Home/>
+  
+ 
+
   <Speciality/>
   <Marque/>
   <About/>
   <Features/>
   <Para1/>
-  <Treat/>
-  <Treatment/>
   <Surgeries/>
   <Surgeries1/>
+  <AppointmentForm/>
+  <Doctoropenpage/>
+  <Doctotalpage/>
 
 
 

@@ -1,8 +1,5 @@
 .docopenpage{
-    
-
-    background-color: white;
-   
+    background-color: white;   
 }
 .totaldtr1234{
     width: 600px;
@@ -11,10 +8,6 @@
 .totaldtr1234{
     display: flex;
 }
-
-
-
-
 #doctorlogged{
     
     padding-right: 30px;
@@ -22,6 +15,23 @@
     padding-left: 85px;
 
 }
+@media screen and (max-width: 500px) {
+    .totaldtr1234{
+        display: flex;
+        flex-direction: column;
+    }
+    #doctorlogged{
+    
+        padding-right: 10px;
+        margin-top: 10px;
+        padding-left: 10px;
+    
+    }
+    .totaldtr1234{
+        width: 500px;
+        padding-top: 60px;
+    }
 
+}
 
 
