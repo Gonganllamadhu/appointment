@@ -20,18 +20,13 @@ import Copyright from './Copyright';
 import Marque from './Marquee';
 import Flowname from './Flowname';
 import Blackbox from './Blackbox';
-<<<<<<< HEAD
-
-
 import Responsenavbar from './Responsenavbar';
-
-=======
->>>>>>> 85ab06dc4ccfc7e8adb3f79fa47b5a12ae6f911a
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
+import AppointmentForm from './Appointment';
 
 
 
@@ -39,30 +34,18 @@ import Adjustpvn from './Adjustpvn';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
- 
-
+  <Navbar />
+  <Home />
   <Speciality/>
   <Marque/>
   <About/>
   <Features/>
   <Para1/>
-<<<<<<< HEAD
-  <Surgeries/>
-  <Surgeries1/>
-  <AppointmentForm/>
   <Doctoropenpage/>
+  <AppointmentForm/>
   <Doctotalpage/>
 
 
-
-
-=======
-  <Treat/>
-  <Treatment/>
-  <Info/>
-  <Appointment/>
->>>>>>> 85ab06dc4ccfc7e8adb3f79fa47b5a12ae6f911a
   </React.StrictMode>
 
 );

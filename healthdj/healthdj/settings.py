@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'healthdj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'class9am',
-        'USER':'root',
-        'PASSWORD':'Pranai@123',
+        'NAME': 'project9amb',
+        'USER': 'root',
+        'PASSWORD':'Pavan@326',
         'HOST':'localhost',
-        'PORT':3306,
+        'PORT':3306
     }
 }
 
