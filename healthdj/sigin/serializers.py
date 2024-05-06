@@ -12,3 +12,9 @@ class patientserializer(ModelSerializer):
     class Meta:
         model= patientinfo
         fields=['pname','pgname','pphone','pemail','pdate','pdoctor']
+
+
+class AppointmentSerializer(ModelSerializer):
+    class Meta:
+        model = patientinfo
+        fields=['pname','pgname','pphone','pemail','pdate','pdoctor']

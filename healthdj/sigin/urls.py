@@ -6,4 +6,5 @@ urlpatterns=[
     path('signup/',views.signup),
     path('login/',obtain_auth_token),
     path('info/',views.patientappointment),
+    path('appointmentinfo/',views.fetch_appointments),
 ]
