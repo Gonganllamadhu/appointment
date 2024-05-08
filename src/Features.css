@@ -27,6 +27,7 @@
     transform: scale(1.7);
 }
 
+
 @media screen and (max-width: 500px) {
     #fealabel1{
         font-size:x-small;

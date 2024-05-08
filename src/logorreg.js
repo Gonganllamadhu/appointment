@@ -3,10 +3,10 @@ import Login from "./login";
 import Register from "./Register";
 
 function Logorreg() {
-  const [showLogin, setShowLogin] = useState(true); // State to control which component to display
+  const [showLogin, setShowLogin] = useState(true); 
 
   const handleShowRegister = () => {
-    setShowLogin(false); // Set showLogin to false to hide Login and show Register
+    setShowLogin(false); 
   };
 
   const handleshowlogin=()=>{

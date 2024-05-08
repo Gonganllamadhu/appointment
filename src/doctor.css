@@ -1,0 +1,35 @@
+.doctor-container {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  
+  .doctor {
+  
+    flex: 1;
+    margin-right: 10px;
+  }
+  .doctor img{
+    height: 220px;
+    box-sizing: border-box;
+    width:fit-content;
+  }
+  
+  .matter {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .matter button{
+    height: 40px;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 60%;
+    cursor: pointer;
+  }
+  .matter button:hover{
+    background-color: rgb(228, 178, 11);
+  }
+  video{
+    width: 20%;
+    height: 30%;
+  }

@@ -26,22 +26,25 @@ import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
-
+import Rendercomponents from './main';
 import MyAppointments from './myappointments';
+
 import Hreartimage from './Hreartimage';
 import Surgeries from './Surgeries';
 import Surgeries1 from './Surgeries1';
 import Totalimage from './Totalimage';
 import Medicalteam from './Medicalteam';
 import Docmyappoints from './Docmyappoints';
+import { DoctorPage, Doctor1,Doctor2,Doctor3,Doctor4,Doctor5,Doctor6 ,VideoPlayer} from './doctor'; 
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Navbar />
-  
- <Docmyappoints/>
-  
+  <Rendercomponents />
+  <Info/>
+  <Copyright/>
+
   </React.StrictMode>
 
 );
