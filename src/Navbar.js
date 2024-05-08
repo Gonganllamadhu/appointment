@@ -13,6 +13,12 @@ const [loggedin, setloggedin] = useState(false)
         }
     })
 
+    const handleShowAppointments=(event)=>{
+        event.preventDefault();
+        showappointments();
+        console.log('hsgfjahdkaj')
+    }
+
     const handleLogout = () => {
         localStorage.removeItem('token');
         setloggedin(false)
@@ -22,18 +28,16 @@ const [loggedin, setloggedin] = useState(false)
         <div className="Navbar">
             <div className="left "><a href="/" id="navbara"><FontAwesomeIcon icon={faHouse} size="5px"/></a></div>
             <div className="right">
-
-                {loggedin && <a onClick={setAppointment} ><FontAwesomeIcon icon={faCalendarAlt}  /> Book an appointment</a>}
-                {loggedin && <a onClick={showdoctor} ><FontAwesomeIcon icon={faUserMd} /> Doctors</a>}
+                {loggedin && <a  id="myappo" onClick={setAppointment} ><FontAwesomeIcon icon={faCalendarAlt}  /> Book an appointment</a>}
+                {loggedin && <a id="mydoc" onClick={showdoctor} ><FontAwesomeIcon icon={faUserMd} /> Doctors</a>}
                 <a href="/" id="navbara"><FontAwesomeIcon icon={faInfo} /> About</a>               
                 {loggedin ? <a href="/profile" id="navbara">
-                <a onClick={showappointments}>appo</a>
                 <div class="dropdownlogin">                   
                 <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /> Profile</label>                   
                     <div class="dropdown-contentlogin">
 
                         
-                        <a onClick={showappointments}>Appointments</a>
+                        <a onClick={(handleShowAppointments)}>Appointments</a>
                         <a onClick={(handleLogout)}>Logout</a>
 
                     </div>
