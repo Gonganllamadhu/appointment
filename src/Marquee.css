@@ -45,14 +45,14 @@
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .hpic1, .hpic2, .hpic3, .hpic4, .hpic5, .hpic6 {
         padding-left: 10px;
         padding-right: 10px;
     }
 
     #commonpicid {
-        width: 45%;
+        width: 130px;
         padding-top: 10px;
     }
 
@@ -61,7 +61,7 @@
         margin-right: 2%;
     }
     #docpic88size{
-        width: 110px;
+        width: 120px;
         height: 150px;
     }
     #commonpicid{
@@ -75,4 +75,21 @@
         font-size:x-small;
     }
 }
+@media only screen and (min-width: 601px) and (max-width: 992px) { 
+    #commonpicid {
+        width: 140px;
+        height: 300px;
+        padding-top: 10px;
+        margin-left: 40px;
+    }
+    #docpic88size{
+        width: 150px;
+        height: 200px;
+        padding-right: 0px;
+    }
+    .hpic1, .hpic2, .hpic3, .hpic4, .hpic5, .hpic6 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
+}

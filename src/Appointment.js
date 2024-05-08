@@ -39,6 +39,7 @@ let patientinfo=(d)=>{
 
 }
 
+
 return (
     <>
         {states !== true &&
@@ -71,22 +72,21 @@ return (
                     </form>
                 </div>
                 <div id='phone2323appoint'>
-                    <div id='phoneinside3232'>
-                        <center><h3>APPOINTMENT TIMMINGS</h3></center><br/>
-                        <center><h4>Monday - Friday</h4></center>
-                        <center>8am - 1pm</center>
-                        <center>2pm - 6pm</center><br/>
-                        <center><h4>Saturday - Sunday</h4></center>
-                        <center>7am - 1pm</center>
-                        <center>2pm - 7pm</center><br/>
-                        <hr/><br/>
-                        <center><h2 >040-2232223233</h2></center>
-                        <center><p>24 X 7 Appointment Helpline Number</p></center>
-                    </div>
+                    
+                       
+                    
                 </div>
             </div>
         }
-        {states && <h1>Your appointment has been booked successfully</h1>}
+
+        {states &&
+        <div id='appointmentsucces'>
+        
+        <br/>
+        <img src='https://media.istockphoto.com/id/1296078405/vector/vector-isolated-round-completed-label.jpg?s=612x612&w=0&k=20&c=CNkTbrNNNikay9hTXc02OXFKF40XZJp_w2eomM4LxEU=' width={300} height={250}></img>
+         <h1>Your appointment has been booked successfully</h1>
+        </div>
+        }
     </>
 );
 }

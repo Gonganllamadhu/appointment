@@ -1,3 +1,24 @@
+.valuebox{
+  width: 250px;
+  height: 300px;
+  gap: 100px;
+  margin-left: 80px;
+  margin-top: 20px;
+  border: 1px black solid;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: rgb(42, 45, 44);  
+  border-radius: 25PX;
+  background-color:rgb(228, 237, 240);
+  box-shadow:20px 20px 50px 10px rgb(216, 209, 211);
+}
+.paramaindiv {
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+
 
 .value1{
 
@@ -17,12 +38,16 @@
   
   
 }
-.value1:hover{
+.valuebox:hover{
   background-color: lightblue;
   transform: scale(1.1);
   border-radius: 25px;
-}
 
+}
+#ourvalues11{
+  margin-left: 3.5%;
+  margin-top: 20px;
+}
 
 .value2:hover{
   background-color: lightblue;
@@ -96,5 +121,51 @@
     align-items: center; 
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .valuebox{
+    width: 100px;
+    height: 300px;
+    margin-left: 10%;
+    gap: 1px;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  p{
+    font-size: 0.7em;
+  }
+  h2{
+    font-size: x-small;
+  }
+ 
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) { 
+
+  .valuebox{
+    width: 18%;
+    height: 320px;
+    margin-left: 10%;
+    gap: 5px;
+    margin-top: 40px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+    font-size: x-small;
+  }
+  p{
+    font-size: x-small;
+  }
+  h2{
+    font-size: x-small;
+  }
+
+ 
+ }
 
 

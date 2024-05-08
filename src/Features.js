@@ -16,6 +16,10 @@ import { faClockRotateLeft } from '@fortawesome/free-solid-svg-icons';
 function Features(){
    
     return(
+        <div>
+            <div id="alwaysherefor">
+            <h1>Always here for you</h1>
+            </div>
         <div className="feacontainer">
             <FontAwesomeIcon icon="fa-sharp fa-solid fa-clock-rotate-left" />
 
@@ -35,6 +39,7 @@ function Features(){
                 <br/><br/><center><label id="fealabel1">24/7<br/> Emergency<br/>Care</label></center>
             </div>
 
+        </div>
         </div>
     )
 };

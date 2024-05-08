@@ -9,16 +9,17 @@ import { VideoPlayer } from './video';
 
 function Home() {
   let  [loggedin,setloggedin] = useState(false)
-
+  
   useEffect(()=>{
     const token =localStorage.getItem('token');
     if(token){
       setloggedin(true);
     }
   },[])
+ 
 
   return (
-    <div className='home123'>
+    <div className='home123' id='totalblock8196'>
       <div className='home123'>
         { !loggedin ? (
             <div id='logorreg'>
@@ -29,7 +30,9 @@ function Home() {
               <VideoPlayer/>
             </div>
         )}
+
     </div>
+    
       <div className='content12'>
         <div className="logo-and-text">
             <img src={Starlogo} alt="Star Logo" height={200} width={170} />

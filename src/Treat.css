@@ -1,36 +1,46 @@
-
-.treatcontainer12{
-    width: 100%;
-    height: 50%;
-   
-}
-.treatcontainer12{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;  
-
+#docloginp33 {
+    width: 250px;
+     padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
-.treatbox12{
-    width: 10%;
-    height: 10%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.treatlabel12{
-    color: black;
-    font-size: larger;
-    font-weight: 500;
-    font-style: "arial";
-    padding-left: 10px;
-}
-
-.treatcenter12:hover{
+#btndoclogtt {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
     cursor: pointer;
-    transform: scale(1.5);
-    
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 55px;
 }
 
 
+
+.doclogcontainer{
+    top: 0;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 170px;
+    border: 1px solid black;
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    padding-right: 30px;
+}
+
+
+
+
+.company-name {
+color: lightskyblue; 
+font-size: 1.2rem;
+}
 

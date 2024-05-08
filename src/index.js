@@ -28,24 +28,19 @@ import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
 
 import MyAppointments from './myappointments';
-
-
+import Hreartimage from './Hreartimage';
+import Surgeries from './Surgeries';
+import Surgeries1 from './Surgeries1';
+import Totalimage from './Totalimage';
+import Medicalteam from './Medicalteam';
+import Docmyappoints from './Docmyappoints';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Navbar />
-  <Home />
-  <Speciality/>
-  <Marque/>
-  <About/>
-  <Features/>
-  <Para1/>
-  <Treat/>
-  <Treatment/>
-  <MyAppointments/>
-  <Appointment/>
-  <Info/>
+  
+ <Docmyappoints/>
   
   </React.StrictMode>
 

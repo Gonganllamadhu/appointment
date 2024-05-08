@@ -29,6 +29,7 @@ const [loggedin, setloggedin] = useState(false)
                     <div class="dropdown-contentlogin">
                       
                         <a href="#" >Appointments</a>
+                        
                         <a href="#"onClick={(handleLogout)}>Logout</a>
                       
                     </div>

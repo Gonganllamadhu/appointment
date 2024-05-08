@@ -69,7 +69,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .home123 {
         width: 90%;
         padding-top: 20px;
@@ -119,3 +119,37 @@
     }
 }
 
+@media only screen and (min-width: 601px) and (max-width: 992px) { 
+    .content12 h1 {
+       
+        font-size: medium;
+    }
+    #p1{
+        font-size: medium;
+    }
+    #p2{
+        padding-left: 0px;
+       font-size:medium;
+        
+    }
+    #p3{
+        padding-left: 0px;
+       font-size:medium;
+        
+    }
+    #p4{
+        padding-left: 0px;
+       font-size:medium;
+        
+    }
+    #h1{
+        font-size: medium;
+    }
+    #h2{
+        font-size: medium;
+    }
+    img{
+        width: 500px;
+    }
+
+}

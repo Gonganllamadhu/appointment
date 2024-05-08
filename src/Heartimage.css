@@ -1,0 +1,28 @@
+#textonheart{
+    position: absolute;
+    top: 0;
+    color: white;
+    float: right;
+}
+#textonheart{
+    color: white;
+    padding-left: 50px;
+    padding-top: 150px;
+    font-family:   Georgia;
+}
+.txtonheart1{
+    font-size: 3em;
+}
+.txtonheart2{
+    font-size: 1em;
+}
+
+#heartlabel1{
+    color: white;
+    position: absolute;
+    top: 0;
+    padding-left: 90px;
+    padding-top: 300px;
+    font-size: 3em;
+   font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+}
