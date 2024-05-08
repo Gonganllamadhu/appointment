@@ -4,7 +4,7 @@ import axios from "axios";
 import { useHistory } from 'react-router-dom';
 
 
-function Register({setShowLogin}){
+function Register({setShowLogin , redolog}){
     let [username,setusername] =useState('')
     let [pwd,setpwd] =useState('')
     let [pwd2,setpwd2] =useState('')
@@ -18,8 +18,16 @@ function Register({setShowLogin}){
             'password':pwd,
             'email':email
         }
+        let redologin=()=>{
+            redolog();
+        
+        }
         axios.post('http://127.0.0.1:8000/signin/signup/',userdetails).then((resp)=>{
+            if (resp.status == 200){
+                redologin();
+            }
             console.log(resp.data)
+        
 
         }).catch((error)=>{
             if (error.response && error.response.data && error.response.data.username) {
