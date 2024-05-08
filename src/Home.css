@@ -38,7 +38,7 @@
 #p1{
     font-size: small;
     font-weight: 700;
-    padding-left: 100px;
+    padding-left: 180px;
 }
 #p2{
     font-size: 20px;
@@ -67,3 +67,55 @@
     display:flex;
     
 }
+
+
+@media screen and (max-width: 500px) {
+    .home123 {
+        width: 90%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    #homepagenew234 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content12 {
+        width: 90%;
+        padding-left: 15px;
+    }
+
+    .content12 h1 {
+       
+        font-size: smaller;
+    }
+
+    p{
+        padding-left: 0px;
+       font-size:x-small;
+        ;
+    }
+    img{
+        width: 400px;
+        height: 300px;
+    }
+    h2{
+        font-size: smaller;
+    }
+    #p2{
+        font-size: small;
+        padding-top: 2px;
+    }
+    #starhospitalid{
+        font-size: larger;
+    }
+    #starticonlogo{
+        width: 100px;
+        height: 100px;
+    }
+    #p1{
+        font-size: small;
+    }
+}
+

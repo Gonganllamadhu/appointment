@@ -31,3 +31,12 @@
     margin-left: 3%;
     margin-right: 8%;
 }
+
+@media screen and (max-width: 500px) {
+    #aboutandvalues11{
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}

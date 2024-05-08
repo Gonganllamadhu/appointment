@@ -20,31 +20,25 @@ import Copyright from './Copyright';
 import Marque from './Marquee';
 import Flowname from './Flowname';
 import Blackbox from './Blackbox';
+import Responsenavbar from './Responsenavbar';
 import Doctorlogin from './Doctorlogin';
 import Doctoropenpage from './Doctoropenpage';
 import Doctorregister from './Doctorregister';
 import Doctotalpage from './Doctotalpage';
 import Adjustpvn from './Adjustpvn';
+import Rendercomponents from './main';
 import MyAppointments from './myappointments';
+import { DoctorPage, Doctor1,Doctor2,Doctor3,Doctor4,Doctor5,Doctor6 ,VideoPlayer} from './doctor'; 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Navbar/>
-  <Home/>
-  <Speciality/>
-  <Marque/>
-  <About/>
-  <Features/>
-  <Para1/>
-  <Treat/>
-  <Treatment/>
-  <MyAppointments/>
-  <Appointment/>
+  <Navbar />
+  <Rendercomponents/>
   <Info/>
-  
+  <Copyright/>
   </React.StrictMode>
 
 );

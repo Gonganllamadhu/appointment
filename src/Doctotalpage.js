@@ -19,7 +19,7 @@ function Doctotalpage(){
                  doctors in the <br/>country, supported by ultra-modern technologies, research-based 
                  care in a warm & comforting environment.
                   Our trusted doctors and a team of specialists work closely together to
-                   provide<br/> the best of healthcare.</p><br/><br/>
+                   provide<br/> the best of healthcare.</p><br/>
             
         <h1>Our Values</h1> <br/>
             <p>We, at Aster DM Healthcare, abide by a core set of values that guide our organisational behaviour and decision making, and that create the unique ethos that is imbibed in every Asterian.</p>

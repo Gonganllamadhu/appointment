@@ -25,6 +25,7 @@
     color: black;
 }
 
+
 #docriginside{
     width: 290px;
     height: 350px;
@@ -86,4 +87,18 @@
 #docrigbut44:hover{
     color: white;
     background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+    #docrigmain{
+        width: 300px;
+        height: 350px;
+        padding-right: 10px;
+        padding-left: 10px;  
+        margin-top: 50px;
+        float: none;
+        margin-left: 30px;
+        
+    }
+
 }

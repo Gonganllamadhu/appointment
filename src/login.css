@@ -16,6 +16,24 @@
     border: 1.5px rgb(239, 222, 44) solid;
     
 }
+
+@media screen and (max-width: 500px) {
+    .login{
+        width: 240px;
+        height: 270px;
+        border: 1px solid black;
+        border-radius: 15px;
+       
+    
+        margin-right: 10px;   
+        margin-bottom: 20px;
+       
+    }
+    
+  
+    
+  }
+  
 .content{
     padding-left: 20px;
     padding-top: 40px;

@@ -23,7 +23,7 @@ function MyAppointments() {
         <div className="appointment-container">
             <h2><center>Welcome to Star Hospitals... </center></h2>
                 {appointments.map(appointment => (
-                    <div key={appointment.id} className="appointment-card">
+                    <div key={appointment.id +'td'} className="appointment-card">
                         <p>We are delighted to serve you. Here your appointments:</p>
                         <p>You have scheduled an appointment with <strong>{appointment.pdoctor}</strong> on<strong> {appointment.pdate}</strong> .</p><br/>
                         <table>
@@ -37,10 +37,10 @@ function MyAppointments() {
         </thead>
         <tbody>
             <tr>
-                <td>{appointment.pname}</td>
-                <td>{appointment.pdate}</td>
-                <td>{appointment.pdoctor}</td>
-                <td>{appointment.pemail}</td>
+                <td>{appointment.pname + 'td2'}</td>
+                <td>{appointment.pdate + 'td3'}</td>
+                <td>{appointment.pdoctor + 'td4'}</td>
+                <td>{appointment.pemail + 'td5'}</td>
             </tr>
             
         </tbody>

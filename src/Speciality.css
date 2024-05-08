@@ -32,3 +32,30 @@
     transform: scale(2);
 
 }
+
+
+@media screen and (max-width: 500px) {
+    .specbox {
+        height: 30%;
+        flex-direction: row;
+        
+    }
+    #specid{
+        font-size: small;
+    }
+
+    .specicons{
+        size: 1x;
+
+    }
+    .specicons:hover{
+        transform: scale(1.2);
+
+    }
+
+    
+
+   
+
+   
+}

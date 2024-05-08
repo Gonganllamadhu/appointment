@@ -32,6 +32,7 @@ def patientappointment(request):
     if patient.is_valid() == True :
         patient.save()
         #print(patient)
+        
 
         return Response(status=HTTP_201_CREATED)
     else:

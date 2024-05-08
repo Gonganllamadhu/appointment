@@ -116,3 +116,60 @@
 }
 
 
+@media screen and (max-width: 500px) {
+    .main2323page{
+        width: 300px;
+        height: 500px;
+        border: 2px black solid;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+       margin-left: 40px;
+
+    }
+    .label2323app{
+        font-size: small;
+
+    }
+    .input2323app{
+        border: 0px;
+        border-bottom: 1px black solid;
+        width: 300px;
+
+    }
+    .total232appoint{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #phone2323appoint{
+        width: 340px;
+        height: 420px;
+        border: 1px black solid;
+        margin-left: 29px;
+        margin-top: 50px;
+       
+    }
+
+    #phoneinside3232{
+        width: 250px;
+        height: 300px;
+        margin: 31px;
+       
+        padding-left: 2px;
+        padding-right: 15px;
+       
+        
+        border: 1px white dashed;
+    }
+
+    .total232appoint{
+        width: 94%;
+        height: 1010px;
+        border: 1px black solid;
+    
+    }
+
+}
+
+
