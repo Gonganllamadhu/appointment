@@ -51,6 +51,17 @@ a{
     float: left;
     padding-top: 20px;
 }
+#myappo:hover{
+  color: white;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+#mydoc:hover{
+  color: white;
+  cursor: pointer;
+  transition: ease 0.2s;
+
+}
 
 .dropbtnlogin{
     

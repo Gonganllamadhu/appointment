@@ -24,6 +24,7 @@ function Rendercomponents(){
 
     const setappointment=()=>{
         setmain(false)
+        setshowdocs(false)
         setshowappointment(true)
         console.log('function called')
     }
@@ -35,6 +36,8 @@ function Rendercomponents(){
     }
     const setmyAppointment=()=>{
         setmain(false)
+        setshowappointment(false)
+        setshowdocs(false)
         setshowmyappo(true)
         console.log('appointments called')
 

@@ -21,8 +21,10 @@ th {
     background-color: #d3c930;
 }
 
-.appointment-container{
+.appointmentcontainer{
     border: 1px solid black;
+    padding-top: 90px;
+    margin-top: 20px;
    
 }
 .appointment-card{
