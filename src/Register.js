@@ -4,27 +4,42 @@ import axios from "axios";
 import { useHistory } from 'react-router-dom';
 
 
-function Register({setShowLogin , redolog}){
+function Register({setShowLogin}){
     let [username,setusername] =useState('')
     let [pwd,setpwd] =useState('')
     let [pwd2,setpwd2] =useState('')
     let [email,setemail] = useState('')
+    let [phone,setphone] = useState('')
     let [error,setError] = useState('')
+    let [passError,setpassError] = useState('')
+    let [emailerror,setemailerror] = useState('')
 
-    let Registeruser=()=>{
+    let handlePassword = (event) => {
+        const value = event.target.value;
+        setpwd2(value);
+        if (value !== pwd) {
+            setpassError("Passwords don't match");
+        } else {
+            setpassError('');
+        }
+    };
 
+    let Registeruser=(e)=>{
+        e.preventDefault();
         let userdetails={
             'username':username,
             'password':pwd,
-            'email':email
+            'email':email,
+            'phoneno':phone,
         }
-        let redologin=()=>{
-            redolog();
-        
-        }
+
         axios.post('http://127.0.0.1:8000/signin/signup/',userdetails).then((resp)=>{
             if (resp.status == 200){
-                redologin();
+                let phoneno=resp.data.phoneno;
+                console.log(phoneno)
+                localStorage.setItem('mobilenumber',phoneno)
+                setShowLogin();
+
             }
             console.log(resp.data)
         
@@ -33,6 +48,9 @@ function Register({setShowLogin , redolog}){
             if (error.response && error.response.data && error.response.data.username) {
                 if (error.response.data.username[0] === 'A user with that username already exists.') {
                     setError('already exists');
+                    if (error.response.data.email) {
+                        setError(error.response.data.email[0]);
+                    }
                 } else {
                     setError(error.response.data.username[0]);
                 }
@@ -49,14 +67,18 @@ function Register({setShowLogin , redolog}){
                     <input type='text' placeholder='Enter Username' onChange={(d)=>setusername(d.target.value)} required></input> <br/>
                     <label>Email address</label><br/>
                     <input type='text' placeholder='Enter Email address' onChange={(d)=>setemail(d.target.value)} required></input> <br/>
+                    <label>Phone Number</label><br/>
+                    <input type='text' placeholder='Enter Phonenumber' onChange={(d)=>setphone(d.target.value)} required></input> <br/>
                     <lable>Password</lable><br/>
                     <input type='password' placeholder='Enter password' onChange={(d)=>setpwd(d.target.value)} required ></input> <br/>
                     <lable>Confirm Password</lable><br/>
-                    <input type='password' placeholder='Confirm password' onChange={(d)=>setpwd2(d.target.value)} required ></input> <br/><br/>
+                    <input type='password' placeholder='Confirm password' onChange={handlePassword} required ></input> <br/><br/>
+                    {passError == "Passwords don't match" && <p id='p11' style={{color:'red'}}>Password don't match</p> }
                     <input id='button' type='submit' value={"register"}/>
                 </form>
                 {error !='already exists' && <p className="error">{error}</p>}
-                {error === 'already exists' && <a onClick={setShowLogin} id='rega'><p style={{color:'red'}}>! already have an account ?</p></a>}            </div>
+                {error === 'already exists' && <a onClick={setShowLogin} id='rega'><p style={{color:'red'}}>! already have an account </p></a>}            
+            </div>
         </div>
     );
 };

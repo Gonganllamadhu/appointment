@@ -31,6 +31,8 @@ let patientinfo=(d)=>{
         console.log(e.status);
         if (e.status == 201){
             setstates(true)
+            
+
         }    
     })
     .catch((e)=>{

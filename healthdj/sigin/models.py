@@ -9,6 +9,7 @@ class userdetails(models.Model):
     username = models.CharField(max_length=30)
     password = models.CharField(max_length=30)
     email = models.CharField(max_length=50)
+    phoneno=models.CharField(max_length=20)
     
     def __str__(self):
         return self.username
@@ -17,7 +18,7 @@ class patientinfo(models.Model):
     pname = models.CharField(max_length=30)
     pgname = models.CharField(max_length=30)
     pphone = models.CharField(max_length=15)
-    pemail = models.CharField(max_length=30)
+    pemail = models.CharField(max_length=50)
     pdate = models.DateField()
     pdoctor = models.CharField(max_length=30)
 
@@ -36,3 +37,5 @@ def patientemail(sender, instance, *args, **kwargs):
 
 
 post_save.connect(patientemail, sender=patientinfo)
+
+
