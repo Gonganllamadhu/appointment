@@ -6,7 +6,8 @@ function MyAppointments() {
     const [appointments, setAppointments] = useState([]);
  
     useEffect(() => {
-        const phone = localStorage.getItem('mobilenumber');
+        
+        let phone = JSON.parse(localStorage.getItem('mobilenumber'));
         console.log(phone)
         axios.post('http://127.0.0.1:8000/signin/appointmentinfo/',phone)
             .then(response => {

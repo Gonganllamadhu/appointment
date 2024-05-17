@@ -25,7 +25,17 @@ function Login({onShowRegister}){
             let token = resp.data.token;
             localStorage.setItem('token', token);
             window.location.reload();
-            
+           
+            if (resp.status= 200){
+                let userdata = JSON.parse(localStorage.getItem('userdata'));
+                console.log(userdata)
+                console.log(username)
+                let phonenum = userdata[username];
+                console.log(phonenum)
+                localStorage.setItem('mobilenumber',JSON.stringify(phonenum))
+                console.log(phonenum)
+            }
+
         }).catch((error) => {
             console.log('Error:', error);
             if (error.response && error.response.status === 400) {

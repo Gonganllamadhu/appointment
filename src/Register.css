@@ -46,4 +46,11 @@
     color: rgb(239, 222, 44);
     background-color: black;
 }
+.disabled-button {
+    opacity: 0.5;
+  }
+.disabled-button:hover{
+    cursor: none;
+}  
+  
 

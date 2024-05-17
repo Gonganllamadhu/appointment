@@ -35,11 +35,16 @@ function Register({setShowLogin}){
 
         axios.post('http://127.0.0.1:8000/signin/signup/',userdetails).then((resp)=>{
             if (resp.status == 200){
-                let phoneno=resp.data.phoneno;
-                console.log(phoneno)
-                localStorage.setItem('mobilenumber',phoneno)
-                setShowLogin();
+                const storeddata = JSON.parse(localStorage.getItem('userdata')) || {};
 
+                let userdata = {
+                    [username]: resp.data.phoneno
+                };
+                const updatedata = { ...storeddata, ...userdata };
+                localStorage.setItem('userdata', JSON.stringify(updatedata));
+                console.log(userdata)
+                setShowLogin();
+                
             }
             console.log(resp.data)
         
@@ -74,7 +79,7 @@ function Register({setShowLogin}){
                     <lable>Confirm Password</lable><br/>
                     <input type='password' placeholder='Confirm password' onChange={handlePassword} required ></input> <br/><br/>
                     {passError == "Passwords don't match" && <p id='p11' style={{color:'red'}}>Password don't match</p> }
-                    <input id='button' type='submit' value={"register"}/>
+                    <input id='button' type='submit' value={"register"} className={passError ? 'disabled-button' : ''}/>
                 </form>
                 {error !='already exists' && <p className="error">{error}</p>}
                 {error === 'already exists' && <a onClick={setShowLogin} id='rega'><p style={{color:'red'}}>! already have an account </p></a>}            
