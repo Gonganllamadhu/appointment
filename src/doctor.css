@@ -5,14 +5,16 @@
   }
   
   .doctor {
-  
-    flex: 1;
     margin-right: 10px;
   }
   .doctor img{
     height: 220px;
     box-sizing: border-box;
     width:fit-content;
+  }
+  .doctorkh img{
+    width: 220px;
+    height: 225px;
   }
   
   .matter {
@@ -25,6 +27,9 @@
     margin-top: 30px;
     margin-left: 60%;
     cursor: pointer;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 6px;
   }
   .matter button:hover{
     background-color: rgb(228, 178, 11);

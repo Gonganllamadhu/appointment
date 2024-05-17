@@ -40,7 +40,7 @@ function Home() {
           </div>
         <p id='p1'>Center of excellence</p><br></br>
 
-        <img src={pic}  width={800} height={400}></img> <br/>
+        <img src={pic}  width={780} height={400}></img> <br/>
         </div>
 
         <div id='homepagenew234'>

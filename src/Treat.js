@@ -1,5 +1,6 @@
 import React from 'react'
 import './Treat.css'
+import Starlogo from './Starlogo.png';
 const Treat = () => {
   return (
     <div>
@@ -25,6 +26,10 @@ const Treat = () => {
             Not a user ?<br/>
             <button id='btndoclogtt'>Register</button><br/>
             </div>
+          </div>
+          <div className="logo-and-text" id='treaticonnamee'>
+            <img src={Starlogo} alt="Star Logo" height={200} width={170} />
+            <h1 id='starhospitalid'>Star <br/>Hospitals</h1>
           </div>
        
     </div>
