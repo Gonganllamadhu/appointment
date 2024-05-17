@@ -39,18 +39,20 @@ function Login({onShowRegister}){
     }
     return(
         <div className="login">
-            <div className="content">
+            <div className="doclogco">
                 <form onSubmit={loginuser}>
+                    
+                    <h2>Login Form</h2>+
                     <label>Username</label> <br/>
-                    <input type="text" placeholder="Enter you username" onChange={(d)=>setusername(d.target.value)} ></input><br/>
+                    <input type="text" placeholder="Enter you username" onChange={(d)=>setusername(d.target.value)}  id="docloginp33"></input><br/>
                     <label>Password</label> <br/>
-                    <input type="password" placeholder="Enter your password" onChange={(d)=>setpwd(d.target.value)}></input><br></br>
+                    <input type="password" placeholder="Enter your password" onChange={(d)=>setpwd(d.target.value)} id="docloginp33"></input><br></br>
                     <h6><a href="#">Forgot password ?</a></h6><br/>
-                    <input id="button" type="submit" value={"sigin"} ></input><br/>
+                    <button id="btndoclogtt" type="submit" value={"sigin"} >Login</button><br/>
                 </form>
                 {error && <p className="error">{error}</p>}
                 <label id="l1">Not a User ?</label> <br/>
-                <button id="button" onClick={onShowRegister}>Register</button>
+                <button id="btndoclogtt" onClick={onShowRegister}>Register</button>
             </div>
         </div>
     );

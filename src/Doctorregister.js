@@ -5,20 +5,22 @@ import caduceus from './caduceus (1).png';
 function Doctorregister(){
     return(
 
-        <div id="docrigmain">
-            <div id="docriginside">
-
-                <label className="docreglab22"><b>Register</b></label><br/><br/>
-                <label className="docreglab22">Enter Username</label><br/>
-                <input className="docreginp33"></input><br/>
-                <label className="docreglab22">Email</label><br/>
-                <input className="docreginp33"></input><br/>                
-                <label className="docreglab22">Password</label><br/>
-                <input type="text" className="docreginp33"></input><br/>
-                <label className="docreglab22">Confirm Password</label><br/>
-                <input type="text" className="docreginp33"></input><br/><br/>
-                <input type="submit" className="docreginp33" value="Register" id="regiddoc12"></input><br/>
-            </div>
+        
+        <div class="doclogcontainer">
+            <h2>Register Form</h2><br/>
+            
+                <label for="username"><b>Username</b></label>
+                <input  type="text" name="username" placeholder="Enter your username" id="docloginp33"/>
+                <label for="username"><b>Email</b></label>
+                <input  type="text" name="username" placeholder="Enter your username" id="docloginp33"/>
+                <label for="password"><b>Password</b></label>
+                <input type="Password" name="Password" placeholder="Password" id="docloginp33"/>
+                <label for="password"><b>Confirm Password</b></label>
+                <input type="Password" name="Password" placeholder="Password" id="docloginp33"/>
+    
+                <button id="btndoclogtt">Register</button>
+                <p id="errors"></p>
+           
         </div>
            
 

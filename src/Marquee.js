@@ -21,7 +21,7 @@ function Marque(){
                 <Marquee>
                     <div className='hpic1' id='commonpicid'>
                         <img id='docpic88size' src={pic1} height={190} width={160} />
-                        <div><h1>Dr.Narayana</h1><h4>Cardiologist</h4></div>
+                        <div><h1>Dr.Narayana</h1><h4>Orthopedist</h4></div>
                     </div>
                     <div className='hpic2' id='commonpicid'>
                         <img id='docpic88size' src={pic6} height={190} width={160}/>
@@ -33,12 +33,12 @@ function Marque(){
                     </div>
                     <div className='hpic4' id='commonpicid'>
                         <img id='docpic88size' src={pic4} height={190} width={160} />
-                        <div><h1>Dr.Kalyani</h1><h4>Dentist</h4></div>
+                        <div><h1>Dr.Kalyani</h1><h4>Neurologist</h4></div>
                         
                     </div>
                     <div className='hpic5' id='commonpicid'>
                         <img id='docpic88size'  src={pic5} height={190} width={160}/>
-                        <div><h1>Dr.Savithri </h1><h4>Orthopedist</h4></div>
+                        <div><h1>Dr.Savithri </h1><h4>Surgeon</h4></div>
 
                     </div>
                     <div className='hpic6' id='commonpicid'>

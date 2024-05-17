@@ -13,7 +13,7 @@ import Surgeries from "./Surgeries";
 import Surgeries1 from "./Surgeries1";
 import Info from "./Info";
 import Copyright from "./Copyright";
-import { DoctorPage, Doctor1,Doctor2,Doctor3,Doctor4,Doctor5,Doctor6 ,VideoPlayer} from './doctor'; 
+import { DoctorPage, Doctor1,Doctor2,Doctor3,Doctor4,Doctor5,Doctor6,VideoPlayer} from './doctor'; 
 import Totalimage from "./Totalimage";
 import Treat from "./Treat";
 
@@ -89,6 +89,7 @@ function Rendercomponents(){
                         <Doctor3 />
                         <Doctor4 />
                         <Doctor5 />
+                        <Doctor6 />
                     </>
                    
                     )}

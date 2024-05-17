@@ -1,27 +1,24 @@
-import React from "react";
-import './Doctoropenpage.css';
-import pic from './doctor group pic.png'
-import pic1 from './caduceus (1).png';
-import Doctorlogin from "./Doctorlogin";
+import React, { useState } from "react";
+import Treat from "./Treat";
 import Doctorregister from "./Doctorregister";
 
-function Doctoropenpage(){
-    return(
-        <div className="totaldtr1234">
-           
-        <div className="docopenpage">
-            <center><h1 >WELCOME TO STAR HOSPITAL</h1><br/><br/></center>
-            <img src={pic}  width={800} height={400}></img> <br/>
-            <div className="aboutdocpage">
-    
-            </div>
+function Doctoropenpage() {
+  const [showLogindoc, setShowLogindoc] = useState(true); 
 
-            
-        </div>
-        <div id="doctorlogged"><Doctorregister /></div>
-        
-        </div>
-    )
+  const handleShowRegisterdoc = () => {
+    setShowLogindoc(false); 
+  };
+
+  const handleshowlogindoc=()=>{
+    setShowLogindoc(true)
+  }
+
+  return (
+    <div id="logorreg">
+      {showLogindoc && <Treat onShowRegisterdoc={handleShowRegisterdoc} />}
+      {!showLogindoc && <Doctoropenpage setShowLogindoc={handleshowlogindoc}/>}
+    </div>
+  );
 }
 
 export default Doctoropenpage;

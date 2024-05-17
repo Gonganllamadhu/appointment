@@ -2,20 +2,21 @@
 
 .login{
     width: 240px;
-    height: 270px;
+    height: 350px;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 1px;
     float: right;
     
-    margin-left: 50px;  
-    margin-bottom: 20px;
-    margin-top: 30px;
+   
+    width: 250px;
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    padding-right: 30px;
+   
 }
-.login:hover{
-    border: 1.5px rgb(239, 222, 44) solid;
-    
-}
+
 
 @media screen and (max-width: 500px) {
     .login{
