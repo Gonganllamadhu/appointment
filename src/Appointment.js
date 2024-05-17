@@ -18,6 +18,8 @@ function AppointmentForm() {
         setemail(event.target.value);
         validateemail(event.target.value);
     };
+   
+   
 
     const validateemail = (email) => {
         const regemail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

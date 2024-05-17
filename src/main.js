@@ -16,6 +16,7 @@ import Copyright from "./Copyright";
 import { DoctorPage, Doctor1,Doctor2,Doctor3,Doctor4,Doctor5,Doctor6,VideoPlayer} from './doctor'; 
 import Totalimage from "./Totalimage";
 import Treat from "./Treat";
+import Medicalteam from "./Medicalteam";
 
 
 function Rendercomponents(){
@@ -30,12 +31,15 @@ function Rendercomponents(){
         setmain(false)
         setshowdocs(false)
         setshowappointment(true)
+        setshowmyappo(false)
         console.log('function called')
     }
     const setdoctor=()=>{
         setmain(false)
         setshowappointment(false)
+        setshowmyappo(false)
         setshowdocs(true)
+
         console.log('doctors called')
     }
     const setmyAppointment=()=>{
@@ -68,7 +72,9 @@ function Rendercomponents(){
                 <>
                    <Totalimage/>
                     <About />
+                    <CoreValues/>
                     <Speciality />
+                    <Medicalteam/>
                     <Marque/>
                     <Features/>
                     <Surgeries/>

@@ -7,7 +7,9 @@ function MyAppointments() {
     const [appointments, setAppointments] = useState([]);
  
     useEffect(() => {
-        axios.get('http://127.0.0.1:8000/signin/appointmentinfo/')
+        const phone = localStorage.getItem('mobilenumber');
+        console.log(phone)
+        axios.post('http://127.0.0.1:8000/signin/appointmentinfo/',phone)
             .then(response => {
                 setAppointments(response.data);
             })

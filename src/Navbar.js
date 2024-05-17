@@ -21,6 +21,7 @@ const [loggedin, setloggedin] = useState(false)
 
     const handleLogout = () => {
         localStorage.removeItem('token');
+        localStorage.removeItem('mobilenumber')
         setloggedin(false)
         window.location.reload();
     }

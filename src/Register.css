@@ -29,6 +29,11 @@
     font-size: smaller;
     cursor: pointer;
 }
+#p11{
+    font-size: smaller;
+    padding-left: 20px;
+
+}
 #button{
     margin-left: 50px;
     width: 60px;
