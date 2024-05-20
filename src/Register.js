@@ -67,24 +67,24 @@ function Register({setShowLogin}){
                     <label>Username</label><br/>
                     <input id='docloginp33' type='text' placeholder='Enter Username' onChange={(d)=>setusername(d.target.value)} required></input> <br/>
                     <label>Email address</label><br/>
-<<<<<<< HEAD
+
                     <input  id='docloginp33' type='text' placeholder='Enter Email address' onChange={(d)=>setemail(d.target.value)} required></input> <br/>
-=======
+
                     <input type='text' placeholder='Enter Email address' onChange={(d)=>setemail(d.target.value)} required></input> <br/>
                     <label>Phone Number</label><br/>
-                    <input type='text' placeholder='Enter Phonenumber' onChange={(d)=>setphone(d.target.value)} required></input> <br/>
->>>>>>> 32571985644202d62e07852db750dccd923a48cb
+                    <input id='docloginp33' type='text' placeholder='Enter Phonenumber' onChange={(d)=>setphone(d.target.value)} required></input> <br/>
+
                     <lable>Password</lable><br/>
                     <input  id='docloginp33' type='password' placeholder='Enter password' onChange={(d)=>setpwd(d.target.value)} required ></input> <br/>
                     <lable>Confirm Password</lable><br/>
-<<<<<<< HEAD
+
                     <input id='docloginp33' type='password' placeholder='Confirm password' onChange={(d)=>setpwd2(d.target.value)} required ></input> <br/><br/>
                     <input id='btndoclogtt' type='submit' value={"register"}/>
-=======
+
                     <input type='password' placeholder='Confirm password' onChange={handlePassword} required ></input> <br/><br/>
                     {passError == "Passwords don't match" && <p id='p11' style={{color:'red'}}>Password don't match</p> }
                     <input id='button' type='submit' value={"register"}/>
->>>>>>> 32571985644202d62e07852db750dccd923a48cb
+
                 </form>
                 {error !='already exists' && <p className="error">{error}</p>}
                 {error === 'already exists' && <a onClick={setShowLogin} id='rega'><p style={{color:'red'}}>! already have an account </p></a>}            

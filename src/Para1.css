@@ -105,7 +105,7 @@
     width:100px;  
     top: 90px; 
     margin-top: 10px;
-    margin-left: 20px; 
+    margin-left: 4px; 
     height: 200px;
     padding-left: 3px;
     padding-right: 3px;
@@ -126,8 +126,9 @@
 @media screen and (max-width: 600px) {
   .valuebox{
     width: 100px;
-    height: 300px;
-    margin-left: 10%;
+    height: 320px;
+    margin-left: 9%;
+    margin-right: 2%;
     gap: 1px;
     margin-top: 20px;
     padding-top: 2px;

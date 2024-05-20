@@ -27,11 +27,11 @@ const [loggedin, setloggedin] = useState(false)
     }
     return(
         <div className="Navbar">
-            <div className="left "><a href="/" id="navbara"><FontAwesomeIcon icon={faHouse} size="5px"/></a></div>
+            <div className="left "><a href="/" id="navbara"><FontAwesomeIcon id="resphh88" icon={faHouse} size="4px"/></a></div>
             <div className="right">
                 {loggedin && <a  id="myappo" onClick={setAppointment} ><FontAwesomeIcon icon={faCalendarAlt}  /> Book an appointment</a>}
                 {loggedin && <a id="mydoc" onClick={showdoctor} ><FontAwesomeIcon icon={faUserMd} /> Doctors</a>}
-                <a href="/" id="navbara"><FontAwesomeIcon icon={faInfo} /> About</a>               
+                <a href="/" id="navbara" className="resphh88"><FontAwesomeIcon icon={faInfo} /> About</a>               
                 {loggedin ? <a href="/profile" id="navbara">
                 <div class="dropdownlogin">                   
                 <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /> Profile</label>                   
@@ -44,7 +44,7 @@ const [loggedin, setloggedin] = useState(false)
                     </div>
                     
                     </div></a> : <div class="dropdownlogin">                   
-                        <label class="dropbtnlogin">Login</label>                   
+                        <label class="dropbtnlogin" id="resphh88">Login</label>                   
                         <div class="dropdown-contentlogin">
                         
                             <a onClick={loginaspat}>Login as Patient</a>

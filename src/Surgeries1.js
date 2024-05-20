@@ -20,7 +20,7 @@ class Surgeries1 extends React.Component {
             <div className='fexboxsurgery111'> <FontAwesomeIcon icon={faSyringe} size='2x' /><br/>
           <h2>Anesthesiology</h2><br></br>
           <p>   
-            Anaesthesia is a medical subspecialty that helps to reduce pain before, during, and after surgery. Intensive care medicine treats all kinds of diseases.
+            Anaesthesia is a medical subspecialty that helps to reduce pain before, during, and after surgery. 
           
           </p></div>
             <div className='fexboxsurgery111'><FontAwesomeIcon icon={faHeartPulse} size='2x'/>
@@ -31,11 +31,11 @@ class Surgeries1 extends React.Component {
           Cardiology is a branch of science dealing with the disorders of the heart as well as parts of the circulatory system.
           </p></div>
                     
-            <div className='fexboxsurgery111'><GiKneeCap style={{ fontSize: "2em" }}/>
+            <div className='fexboxsurgery111'><GiKneeCap style={{ fontSize: "2x" }} size={25}/>
     
-    <h2>Orthopaedics</h2><br></br>
+    <h2>Orthopaedics</h2><br/>
     <p>
-    Orthopaedics is a medical speciality focusing on the diagnosis, treatment, and management of
+    Orthopaedics is a medical speciality that treatment of
      patients with disorders that affect the skeletal system.
    
     </p></div>

@@ -11,7 +11,7 @@ const Medicalteam = () => {
           <p id='p4' >At Star Hospitals, we prioritize our patients' well-being and safety. Our dedicated staff works tirelessly to ensure that every patient receives compassionate care in a safe and comfortable environment.</p><br/>
         </div>
         <div id='medicalteampic'>
-            <img src='https://wallpapercave.com/wp/wp12372778.jpg' width={550} height={350}></img>
+            <img id='medicalteamimg77' src='https://wallpapercave.com/wp/wp12372778.jpg' width={550} height={350}></img>
 
         </div>
       

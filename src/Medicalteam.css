@@ -9,3 +9,11 @@
 #h111{
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    #medicalteamtotal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}

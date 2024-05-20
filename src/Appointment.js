@@ -111,7 +111,22 @@ function AppointmentForm() {
                         {error && <p className="error">{error}</p>}
                     </div>
                     <div id='phone2323appoint'>
-                        {/* Phone icon or related content can go here */}
+                    <div id='phoneinside3232'>
+                        <center><label id='tim99idls'>Timings</label></center><br/> 
+                        <center>Monday - Friday</center>
+                        <center><p>10am - 6pm</p></center><br/>
+                        <center>Saturday - Sunday</center>
+                        <center><p>9am - 7pm</p><br/></center>
+                        <hr size='2px' color='white'/><br/>
+                        <center>
+                            Call us 24 X 7 <br/>
+                            99999999
+                        </center>
+
+
+                    </div>
+
+                        
                     </div>
                 </div>
             }
