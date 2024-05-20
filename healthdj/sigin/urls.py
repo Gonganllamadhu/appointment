@@ -7,4 +7,5 @@ urlpatterns=[
     path('login/',obtain_auth_token),
     path('info/',views.patientappointment),
     path('appointmentinfo/',views.fetch_appointments),
+    path('delappo/',views.delappo)
 ]

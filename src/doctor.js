@@ -10,7 +10,7 @@ import React from 'react';
 import './doctor.css'
 
 
-function DoctorPage() {
+function DoctorPage({setAppointment}) {
   return (
     
     <div className='doctor-container'>
@@ -25,13 +25,13 @@ function DoctorPage() {
         <p><strong>Experience:</strong> 10 years</p> {/* Bold the label */}
         <p><strong>Education:</strong> MBBS, MS</p> {/* Bold the label */}
         <p><strong>About:</strong> A cardiologist is a physician who's an expert in the care of your heart and blood vessels. They can treat or help you prevent a number of cardiovascular problems</p>
-         <button  >Book an Appointment</button>
+         <button onClick={setAppointment}  >Book an Appointment</button>
       </div>
     </div>
   );
 }
 
-function Doctor1() {
+  function Doctor1({setAppointment}) {
   return (
     <div className='doctor-container'>
       
@@ -47,12 +47,12 @@ function Doctor1() {
         <p><strong>About:</strong> Neurology is the branch of medicine concerned with the study and 
         treatment of disorders of the nervous system.
          </p>
-         <button  >Book an Appointment</button>
+         <button onClick={setAppointment} >Book an Appointment</button>
       </div>
     </div>
   );
 }
-function Doctor2() {
+function Doctor2({setAppointment}) {
   return (
     <div className='doctor-container'>
       
@@ -67,12 +67,12 @@ function Doctor2() {
         <p><strong>Education:</strong> MBBS, MD</p> {/* Bold the label */}
         <p><strong>About:</strong>Specialization in surgical and nonsurgical approaches to treat musculoskeletal issues,
          such as sports injuries, joint pain, and back problems.</p>
-         <button  >Book an Appointment</button>
+         <button onClick={setAppointment} >Book an Appointment</button>
       </div>
     </div>
   );
 }
-function Doctor3() {
+function Doctor3({setAppointment}) {
   return (
     <div className='doctor-container'>
       
@@ -87,12 +87,12 @@ function Doctor3() {
         <p><strong>Education:</strong> MBBS, MD</p> {/* Bold the label */}
         <p><strong>About:</strong> Surgeons diagnose and treat injuries or illnesses in a patient,
         treat injuries, including a broken bone, diseases including cancer, tumors, and deformities including cleft palates.</p>
-         <button  >Book an Appointment</button>
+         <button onClick={setAppointment} >Book an Appointment</button>
       </div>
     </div>
   );
 }
-function Doctor4() {
+function Doctor4({setAppointment}) {
   return (
     <div className='doctor-container'>
       
@@ -107,12 +107,12 @@ function Doctor4() {
         <p><strong>Education:</strong> MBBS, MS,DNB</p> {/* Bold the label */}
         <p><strong>About:</strong> A gynecologist is a physician who specializes in diagnosing and treating diseases of the female reproductive system. 
         Your reproductive system is responsible for pregnancy and menstruation.</p>
-         <button  >Book an Appointment</button>
+         <button onClick={setAppointment} >Book an Appointment</button>
       </div>
     </div>
   );
 }
-function Doctor5() {
+function Doctor5({setAppointment}) {
   return (
     <div className='doctor-container'>
       
@@ -127,12 +127,12 @@ function Doctor5() {
         <p><strong>Education:</strong> MBBS, MD</p> {/* Bold the label */}
         <p><strong>About:</strong> A neurologist is a medical doctor who diagnoses, treats and manages
          disorders of the brain and nervous system (brain, spinal cord and nerves)</p>
-         <button  className="appointment-button" >Book an Appointment</button>
+         <button onClick={setAppointment} className="appointment-button" >Book an Appointment</button>
       </div>
     </div>
   );
 }
-function Doctor6() {
+function Doctor6({setAppointment}) {
   return (
     <div className='doctor-container'>
       
@@ -147,7 +147,7 @@ function Doctor6() {
         <p><strong>Education:</strong> MBBS, MD</p> {/* Bold the label */}
         <p><strong>About:</strong> Surgeons diagnose and treat injuries or illnesses in a patient,
         treat injuries, including a broken bone, diseases including cancer, tumors, and deformities including cleft palates.</p>
-         <button  className="appointment-button" >Book an Appointment</button>
+         <button onClick={setAppointment} className="appointment-button" >Book an Appointment</button>
       </div>
     </div>
   );

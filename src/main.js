@@ -89,13 +89,13 @@ function Rendercomponents(){
                     {logpatient && <Home/>}
                     {showdocs && (
                     <>
-                        <DoctorPage />
-                        <Doctor1 />
-                        <Doctor2 />
-                        <Doctor3 />
-                        <Doctor4 />
-                        <Doctor5 />
-                        <Doctor6 />
+                        <DoctorPage showappointments={setmyAppointment} />
+                        <Doctor1 showappointments={setmyAppointment} />
+                        <Doctor2 showappointments={setmyAppointment} />
+                        <Doctor3 showappointments={setmyAppointment} />
+                        <Doctor4 showappointments={setmyAppointment} />
+                        <Doctor5 showappointments={setmyAppointment} />
+                        <Doctor6 showappointments={setmyAppointment} />
                     </>
                    
                     )}

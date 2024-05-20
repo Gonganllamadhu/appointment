@@ -45,12 +45,25 @@ def patientappointment(request):
 
 @api_view(['POST'])
 def fetch_appointments(request):
-    print("Hello")
+    #print("Hello")
     phoneno = json.loads(request.body)
-    print(phoneno)
+    #print(phoneno)
     appointments = patientinfo.objects.filter(pphone=phoneno)
-    print('appointments')
+    #print(appointments)
     serializer = AppointmentSerializer(appointments, many=True)
-    print('serializer')
+    #print('serializer')
+    #print(serializer)
+
     return Response(serializer.data, status=HTTP_200_OK)
     
+
+@api_view(['POST'])
+def delappo(request):
+    data= json.loads(request.body)
+    pname=data.get('pname')
+    phone=data.get('phone')
+    print(pname,phone)
+    appointment = patientinfo.objects.filter(pphone=phone, pname=pname)
+    appointment.delete()
+
+    return Response({'message': 'Appointment deleted successfully'}, status=HTTP_200_OK)
