@@ -94,6 +94,7 @@ function AppointmentForm() {
                             <input className='input2323app' type='text' onChange={emailhandle} required></input><br /><br />
                             <label className='label2323app'>Preferred Date</label><br />
                             <input className='input2323app' type='date' onChange={timehandle} required></input><br /><br />
+                            {error && <p id='error' className="error">{error}</p>}
                             <label className='label2323app'>Preferred Doctor</label><br />
                             <select className='input2323app' onChange={(e) => setselect(e.target.value)} required>
                                 <option value="" disabled selected>Select one option</option>
@@ -108,9 +109,10 @@ function AppointmentForm() {
                             <input className='input2323app'></input><br /><br />
                             <input className='input2323app' type='submit' value='Book Appointment' id='input32appo'></input><br /><br />
                         </form>
-                        {error && <p className="error">{error}</p>}
+                        
                     </div>
                     <div id='phone2323appoint'>
+<<<<<<< HEAD
                     <div id='phoneinside3232'>
                         <center><label id='tim99idls'>Timings</label></center><br/> 
                         <center>Monday - Friday</center>
@@ -127,6 +129,20 @@ function AppointmentForm() {
                     </div>
 
                         
+=======
+                        <div id='phoneinside3232'>
+                            <center><label className='tim99idls'>Timings</label></center><br/> 
+                            <center>Monday - Friday</center>
+                            <center><p className='tim99idls' >10am - 6pm</p></center><br/>
+                            <center>Saturday - Sunday</center>
+                            <center><p className='tim99idls' >9am - 7pm</p><br/></center>
+                            <hr size='2px' color='white'/><br/>
+                            <center>
+                                Call us 24 X 7 <br/>
+                                99999999
+                            </center>
+                        </div>
+>>>>>>> b4a7bfb9f0e994c8bf258dccfd70101387693a63
                     </div>
                 </div>
             }

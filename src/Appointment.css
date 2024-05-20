@@ -83,6 +83,20 @@
    
 }
 
+#error{
+    text-align: center;
+    height: 20px;
+    color: red;
+    font-size: smaller;
+
+}
+
+.tim99idls{
+    color: white;
+    font-size: x-large;
+    
+}
+
 #phoneinside3232{
     width: 300px;
     height: 330px;
