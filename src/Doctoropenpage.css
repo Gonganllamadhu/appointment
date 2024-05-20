@@ -25,6 +25,10 @@
     padding-left: 85px;
 
 }
+#logorreg{
+    margin-left: 0px;
+    padding-left: 0px;
+}
 
 @media screen and (max-width: 500px) {
     .totaldtr1234{

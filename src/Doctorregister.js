@@ -5,8 +5,8 @@ import caduceus from './caduceus (1).png';
 function Doctorregister({setShowLogindoc}){
     return(
 
-        
-        <div className="docregpage">
+        <div className="box12345">
+        <div className="content12345">
             <h2>Register Form</h2><br/>
             
                 <label for="username"><b>Username</b></label>
@@ -19,9 +19,10 @@ function Doctorregister({setShowLogindoc}){
                 <input type="Password" name="Password" placeholder="Password" id="docloginp33"/>
     
                 <button id="btndoclogtt">Register</button>
-                <button onClick={setShowLogindoc} >login</button>
+                <button onClick={setShowLogindoc} id="btndoclogtt" >login</button>
                 <p id="errors"></p>
            
+        </div>
         </div>
            
 

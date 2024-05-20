@@ -2,7 +2,7 @@ import './Doctorlogin.css';
 
 import React from "react";
 
-function Doctorlogin(){
+function Doctorlogin({onShowRegisterdoc}){
     return(
         <div className="doclogcontainer">
             <div className='loginpage777777'>
@@ -14,7 +14,7 @@ function Doctorlogin(){
             <input type='password' placeholder='Password'  id="docloginp33"></input><br/><br/>
             <button className='doclogbut' id='btndoclogtt'>Login</button> <br/><br/>
             <label className='docloglabel'>New User..?</label><br/>
-            <button className='doclogbut'id='btndoclogtt' >Register</button>
+            <button className='doclogbut'id='btndoclogtt' onClick={onShowRegisterdoc}>Register</button>
             </div>
         </div>
     )

@@ -8,7 +8,34 @@
     margin-bottom: 20px; 
     top: 0;
     position: absolute;
+
+}
+.box12345{
+    top: 0;
+    position: absolute;
+    height: 480px;
     
+    border-radius: 15px;
+    float: right;
+     
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 270px;
+   margin-left: 60%;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+    padding-right: 30px;
+    border: 1px black solid;
+
+}
+.content12345{
+    padding-left: 20px;
+    padding-top: 5px;
+    
+
 }
 
 #docrigmain{
