@@ -2,11 +2,11 @@ import React from "react";
 import './Doctorregister.css';
 import caduceus from './caduceus (1).png';
 
-function Doctorregister(){
+function Doctorregister({setShowLogindoc}){
     return(
 
         
-        <div class="doclogcontainer">
+        <div className="docregpage">
             <h2>Register Form</h2><br/>
             
                 <label for="username"><b>Username</b></label>
@@ -19,6 +19,7 @@ function Doctorregister(){
                 <input type="Password" name="Password" placeholder="Password" id="docloginp33"/>
     
                 <button id="btndoclogtt">Register</button>
+                <button onClick={setShowLogindoc} >login</button>
                 <p id="errors"></p>
            
         </div>

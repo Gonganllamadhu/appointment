@@ -17,6 +17,7 @@ import { DoctorPage, Doctor1,Doctor2,Doctor3,Doctor4,Doctor5,Doctor6,VideoPlayer
 import Totalimage from "./Totalimage";
 import Treat from "./Treat";
 import Medicalteam from "./Medicalteam";
+import Doctoropenpage from "./Doctoropenpage";
 
 
 function Rendercomponents(){
@@ -85,17 +86,17 @@ function Rendercomponents(){
                 <>
                     {showappointment && <AppointmentForm />}
                     {showmyappo && <MyAppointments /> }
-                    {logdoctor && <Treat/>}
+                    {logdoctor && <Doctoropenpage/>}
                     {logpatient && <Home/>}
                     {showdocs && (
                     <>
-                        <DoctorPage showappointments={setmyAppointment} />
-                        <Doctor1 showappointments={setmyAppointment} />
-                        <Doctor2 showappointments={setmyAppointment} />
-                        <Doctor3 showappointments={setmyAppointment} />
-                        <Doctor4 showappointments={setmyAppointment} />
-                        <Doctor5 showappointments={setmyAppointment} />
-                        <Doctor6 showappointments={setmyAppointment} />
+                        <DoctorPage setAppointment={setappointment} />
+                        <Doctor1 setAppointment={setappointment} />
+                        <Doctor2 setAppointment={setappointment} />
+                        <Doctor3 setAppointment={setappointment} />
+                        <Doctor4 setAppointment={setappointment} />
+                        <Doctor5 setAppointment={setappointment} />
+                        <Doctor6 setAppointment={setappointment} />
                     </>
                    
                     )}

@@ -1,3 +1,15 @@
+.docregpage{
+    width: 240px;
+    height: 300px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-right: 15%;
+    margin-bottom: 20px; 
+    top: 0;
+    position: absolute;
+    
+}
 
 #docrigmain{
     width: 300px;

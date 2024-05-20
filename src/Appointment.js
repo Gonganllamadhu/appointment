@@ -112,24 +112,6 @@ function AppointmentForm() {
                         
                     </div>
                     <div id='phone2323appoint'>
-<<<<<<< HEAD
-                    <div id='phoneinside3232'>
-                        <center><label id='tim99idls'>Timings</label></center><br/> 
-                        <center>Monday - Friday</center>
-                        <center><p>10am - 6pm</p></center><br/>
-                        <center>Saturday - Sunday</center>
-                        <center><p>9am - 7pm</p><br/></center>
-                        <hr size='2px' color='white'/><br/>
-                        <center>
-                            Call us 24 X 7 <br/>
-                            99999999
-                        </center>
-
-
-                    </div>
-
-                        
-=======
                         <div id='phoneinside3232'>
                             <center><label className='tim99idls'>Timings</label></center><br/> 
                             <center>Monday - Friday</center>
@@ -142,7 +124,6 @@ function AppointmentForm() {
                                 99999999
                             </center>
                         </div>
->>>>>>> b4a7bfb9f0e994c8bf258dccfd70101387693a63
                     </div>
                 </div>
             }

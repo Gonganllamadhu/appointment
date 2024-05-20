@@ -72,25 +72,6 @@ function Register({setShowLogin}){
                     <label>Username</label><br/>
                     <input id='docloginp33' type='text' placeholder='Enter Username' onChange={(d)=>setusername(d.target.value)} required></input> <br/>
                     <label>Email address</label><br/>
-<<<<<<< HEAD
-
-                    <input  id='docloginp33' type='text' placeholder='Enter Email address' onChange={(d)=>setemail(d.target.value)} required></input> <br/>
-
-                    <input type='text' placeholder='Enter Email address' onChange={(d)=>setemail(d.target.value)} required></input> <br/>
-                    <label>Phone Number</label><br/>
-                    <input id='docloginp33' type='text' placeholder='Enter Phonenumber' onChange={(d)=>setphone(d.target.value)} required></input> <br/>
-
-                    <lable>Password</lable><br/>
-                    <input  id='docloginp33' type='password' placeholder='Enter password' onChange={(d)=>setpwd(d.target.value)} required ></input> <br/>
-                    <lable>Confirm Password</lable><br/>
-
-                    <input id='docloginp33' type='password' placeholder='Confirm password' onChange={(d)=>setpwd2(d.target.value)} required ></input> <br/><br/>
-                    <input id='btndoclogtt' type='submit' value={"register"}/>
-
-                    <input type='password' placeholder='Confirm password' onChange={handlePassword} required ></input> <br/><br/>
-                    {passError == "Passwords don't match" && <p id='p11' style={{color:'red'}}>Password don't match</p> }
-                    <input id='button' type='submit' value={"register"}/>
-=======
                     <input id='docloginp33' type='text' placeholder='Enter Email address' onChange={(d)=>setemail(d.target.value)} required></input> <br/>
                     <label>Phone Number</label><br/>
                     <input id='docloginp33' type='text' placeholder='Enter Phonenumber' onChange={(d)=>setphone(d.target.value)} required></input> <br/>
@@ -101,7 +82,6 @@ function Register({setShowLogin}){
 
                     {passError == "Passwords don't match" && <p id='p11' style={{color:'red'}}>Password don't match</p> }
                     <input id='btndoclogtt' type='submit' value={"register"} className={passError ? 'disabled-button' : ''}/>
->>>>>>> b4a7bfb9f0e994c8bf258dccfd70101387693a63
 
                 </form>
                 {error !='already exists' && <p className="error">{error}</p>}
