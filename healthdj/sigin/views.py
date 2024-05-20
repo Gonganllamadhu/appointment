@@ -2,10 +2,10 @@ from django.shortcuts import render
 from django.urls import path
 from . models import userdetails,patientinfo
 from rest_framework.decorators import api_view
-from .serializers import userserializer , patientserializer,AppointmentSerializer,userpatientserializer
+from .serializers import userserializer , patientserializer,AppointmentSerializer,userpatientserializer,doctorserializer
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
-from rest_framework.status import HTTP_201_CREATED,HTTP_400_BAD_REQUEST,HTTP_200_OK
+from rest_framework.status import HTTP_201_CREATED,HTTP_400_BAD_REQUEST,HTTP_200_OK,HTTP_403_FORBIDDEN
 from django.contrib.auth.models import User
 import json
 
@@ -67,3 +67,19 @@ def delappo(request):
     appointment.delete()
 
     return Response({'message': 'Appointment deleted successfully'}, status=HTTP_200_OK)
+
+@api_view(['POST'])
+def docregister(request):
+    doctor = doctorserializer(data=request.data)
+    if doctor.is_valid():
+            username = doctor.validated_data.get('username')
+            password = doctor.validated_data.get('password')
+            email = doctor.validated_data.get('email')
+            
+            if User.objects.filter(username=username).exists():
+                return Response({"error": "A user with that username already exists"}, status=HTTP_400_BAD_REQUEST)
+            else:
+                User.objects.create_superuser(username=username, email=email, password=password)
+                return Response("Superuser created successfully", status=HTTP_201_CREATED)
+    else:
+        return Response(doctor.errors, status=HTTP_403_FORBIDDEN)
