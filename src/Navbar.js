@@ -28,12 +28,12 @@ const [loggedin, setloggedin] = useState(false)
         <div className="Navbar">
             <div className="left "><a href="/" id="navbara"><FontAwesomeIcon id="resphh88" icon={faHouse} size="4px"/></a></div>
             <div className="right">
-                {loggedin && <a  id="myappo" onClick={setAppointment} ><FontAwesomeIcon icon={faCalendarAlt}  /> Book an appointment</a>}
-                {loggedin && <a id="mydoc" onClick={showdoctor} ><FontAwesomeIcon icon={faUserMd} /> Doctors</a>}
-                <a href="/" id="navbara" className="resphh88"><FontAwesomeIcon icon={faInfo} /> About</a>               
+                {loggedin && <a className="openres123"  id="resphh88" onClick={setAppointment} ><FontAwesomeIcon icon={faCalendarAlt}  /><label id="resnavmobile"> Book an appointment</label></a>}
+                {loggedin && <a className="openres123" id="navbara" onClick={showdoctor} ><FontAwesomeIcon icon={faUserMd} /><label id="resnavmobile">Doctors</label> </a>}
+                <a href="/" id="navbara" className="openres123"><FontAwesomeIcon icon={faInfo} /><label id="resnavmobile">About</label> </a>               
                 {loggedin ? <a href="/profile" id="navbara">
                 <div class="dropdownlogin">                   
-                <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /> Profile</label>                   
+                <label className="dropbtnlogin"><FontAwesomeIcon icon={faUser} /><label id="resnavmobile">Profile</label> </label>                   
                     <div class="dropdown-contentlogin">
 
                         

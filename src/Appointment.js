@@ -45,7 +45,7 @@ function AppointmentForm() {
         const today = new Date();
         today.setHours(0, 0, 0, 0);
         if (parsedate < today) {
-            seterror('The date cannot be in the past');
+            seterror('The Date cannot be in the past');
             return;
         }
 

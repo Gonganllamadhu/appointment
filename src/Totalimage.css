@@ -33,4 +33,19 @@
         font-weight: bolder;
         text-shadow: 2px 1px 3px  rgb(68, 67, 67);   
     }
+    #img1{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) { 
+    #img1{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) { 
+    #img1{
+        width: 100%;
+    }
 }
