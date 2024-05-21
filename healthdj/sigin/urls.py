@@ -8,5 +8,7 @@ urlpatterns=[
     path('info/',views.patientappointment),
     path('appointmentinfo/',views.fetch_appointments),
     path('delappo/',views.delappo),
-    path('docregister/',views.docregister)
+    path('docregister/',views.docregister),
+    path('doclogin/',views.doclogin),
+    path('docappo/',views.showdocappo)
 ]

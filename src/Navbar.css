@@ -181,3 +181,33 @@ a{
 }
   }
 
+  @media screen and (max-width: 600px) {
+    #resphh88{
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
+      margin-left: 2px;
+      padding-left: 2px;
+     
+    }
+    .resphh88{
+      margin-right: 20px;
+      margin-left: 2px;
+      padding-left: 2px;
+    }
+    .right{
+     
+      float: right;
+      padding-top: 15px;
+
+  }
+
+  .dropdown-contentlogin {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  }

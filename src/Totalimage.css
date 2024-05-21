@@ -16,5 +16,21 @@
     text-shadow: 2px 1px 3px  rgb(232, 220, 220);   
 }
 
-#img1{
+@media only screen and (max-width: 600px) { 
+    #textonimg{
+        position: absolute;
+        top: 0;
+        color: white;
+        float: right;
+        padding-top: 100px;
+        padding-left: 102px;
+    }
+    #labelonimg{
+        color: white;
+        font-size:medium;
+        font-weight: 700;
+        height: 30px;
+        font-weight: bolder;
+        text-shadow: 2px 1px 3px  rgb(68, 67, 67);   
+    }
 }

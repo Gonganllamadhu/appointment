@@ -103,8 +103,6 @@
     margin: 50px;
     padding-left: 15px;
     padding-right: 15px;
-   
-    
     border: 1px white dashed;
 }
 
@@ -112,6 +110,11 @@
     transform: translate(-50%, -50%);
     animation: moveAndRotate 1s infinite;
 
+}
+#tim99idls{
+    color: white;
+    font-size: x-large;
+    
 }
 
 @keyframes moveAndRotate {

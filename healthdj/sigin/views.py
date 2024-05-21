@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from rest_framework.status import HTTP_201_CREATED,HTTP_400_BAD_REQUEST,HTTP_200_OK,HTTP_403_FORBIDDEN
 from django.contrib.auth.models import User
 import json
+from django.contrib.auth import authenticate, login
 
 
 
@@ -46,13 +47,14 @@ def patientappointment(request):
 @api_view(['POST'])
 def fetch_appointments(request):
     #print("Hello")
+    print(request.body)
     phoneno = json.loads(request.body)
-    #print(phoneno)
+    print(phoneno)
     appointments = patientinfo.objects.filter(pphone=phoneno)
     #print(appointments)
     serializer = AppointmentSerializer(appointments, many=True)
     #print('serializer')
-    #print(serializer)
+    print(serializer)
 
     return Response(serializer.data, status=HTTP_200_OK)
     
@@ -75,7 +77,7 @@ def docregister(request):
             username = doctor.validated_data.get('username')
             password = doctor.validated_data.get('password')
             email = doctor.validated_data.get('email')
-            
+
             if User.objects.filter(username=username).exists():
                 return Response({"error": "A user with that username already exists"}, status=HTTP_400_BAD_REQUEST)
             else:
@@ -83,3 +85,40 @@ def docregister(request):
                 return Response("Superuser created successfully", status=HTTP_201_CREATED)
     else:
         return Response(doctor.errors, status=HTTP_403_FORBIDDEN)
+
+@api_view(['POST'])
+def doclogin(request):
+    print(request.body)
+    username = request.data.get('username')
+    password = request.data.get('password')
+    #print(username)
+    #print(password)
+
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        if user.is_superuser:
+            login(request, user)
+            #print('1')
+            return Response("Superuser logged in successfully", status=HTTP_200_OK)
+        else:
+            return Response("User is not a superuser", status=HTTP_400_BAD_REQUEST)
+    else:
+        print('2')
+        return Response("Invalid credentials", status=HTTP_400_BAD_REQUEST)
+    
+
+
+@api_view(['POST'])
+def showdocappo(request):
+    body_unicode = request.body.decode('utf-8')
+    print(body_unicode)
+    doctors=['Dr.Narayana','Dr.Harathi','Dr.Karthik','Dr.Kalyani','Dr.Savithri','Dr.Khasim']
+
+    if body_unicode in doctors:   
+        appointments = patientinfo.objects.filter(pdoctor=body_unicode)
+        serializer = AppointmentSerializer(appointments, many=True)
+        return Response(serializer.data, status=HTTP_200_OK)
+    else:
+        appointments = patientinfo.objects.all()
+        serializer = AppointmentSerializer(appointments, many=True)
+        return Response(serializer.data, status=HTTP_200_OK)

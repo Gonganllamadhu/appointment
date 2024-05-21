@@ -56,7 +56,7 @@ function AppointmentForm() {
         d.preventDefault();
 
         if (error) {
-            return; // Prevent form submission if there is an error
+            return; 
         }
 
         let patientdetails = {

@@ -14,7 +14,9 @@ function Login({onShowRegister}){
             'username':username,
             'password':pwd
         }
+        
         const config = {
+
             headers: {
                 'Content-Type': 'application/json' 
             }

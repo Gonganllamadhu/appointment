@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './Doctorregister.css';
 import axios from "axios";
 
 function Doctorregister({ setShowLogindoc }) {
@@ -24,7 +23,15 @@ function Doctorregister({ setShowLogindoc }) {
         axios.post('http://127.0.0.1:8000/signin/docregister/', docdetails)
             .then((resp) => {
                 if (resp.status === 201) {
-                    setShowLogindoc();
+                    const storeddocdata = JSON.parse(localStorage.getItem('docdata')) || {};
+
+                let docdata = {
+                    [dname]: dname
+                };
+                const updatedocdata = { ...storeddocdata, ...docdata };
+                localStorage.setItem('docdata', JSON.stringify(updatedocdata));
+                console.log(docdata)
+                setShowLogindoc();
                 }
             })
             .catch((error) => {
@@ -44,13 +51,13 @@ function Doctorregister({ setShowLogindoc }) {
         <div className="doclogcontainer">
             <h2>Register Form</h2><br />
             <form onSubmit={docregister}>
-                <label htmlFor="username"><b>Username</b></label>
+                <label ><b>Username</b></label>
                 <input type="text" name="username" onChange={(d) => setdname(d.target.value)} placeholder="Enter your username" id="docloginp33" />
-                <label htmlFor="email"><b>Email</b></label>
+                <label ><b>Email</b></label>
                 <input type="text" name="email" onChange={(d) => setdemail(d.target.value)} placeholder="Enter your email" id="docloginp33" />
-                <label htmlFor="password"><b>Password</b></label>
+                <label ><b>Password</b></label>
                 <input type="password" name="password" onChange={(d) => setdpass(d.target.value)} placeholder="Password" id="docloginp33" />
-                <label htmlFor="confirmPassword"><b>Confirm Password</b></label>
+                <label ><b>Confirm Password</b></label>
                 <input type="password" name="confirmPassword" onChange={(d) => setConfirmPass(d.target.value)} placeholder="Confirm Password" id="docloginp33" />
                 <button id="btndoclogtt">Register</button>
             </form>
@@ -62,6 +69,7 @@ function Doctorregister({ setShowLogindoc }) {
             )}
         </div>
     );
+
 }
 
 export default Doctorregister;
