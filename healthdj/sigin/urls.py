@@ -7,5 +7,8 @@ urlpatterns=[
     path('login/',obtain_auth_token),
     path('info/',views.patientappointment),
     path('appointmentinfo/',views.fetch_appointments),
-    path('delappo/',views.delappo)
+    path('delappo/',views.delappo),
+    path('docregister/',views.docregister),
+    path('doclogin/',views.doclogin),
+    path('docappo/',views.showdocappo)
 ]

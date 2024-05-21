@@ -1,17 +1,71 @@
-#todaydocappschedule{
+#todaydocappschedule {
     position: absolute;
     top: 0;
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     background-color: white;
-    margin-top: 70px;
+    margin-top: 100px;
+    margin-left: 300px;
     border-radius: 25px;
-    margin-left: 350px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-#docdatapull{
-    width: 600px;
-    padding-top: 10px;
+
+#docdatapull {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#docdatapull th, #docdatapull td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: large
+}
+
+#docdatapull th {
+    background-color: #f2f2f2;
     background-color: orange;
+
+}
+
+#td1{
+    text-align: center;
+    font-size: larger;
+}
+
+td {
+    color: black;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #todaydocappschedule {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    #docdatapull {
+        width: 100%;
+    }
+
+    #docdatapull th, #docdatapull td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    #todaydocappschedule {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+
+    #docdatapull th, #docdatapull td {
+        padding: 5px;
+        font-size: 12px;
+    }
 }

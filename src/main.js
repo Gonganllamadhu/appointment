@@ -18,6 +18,7 @@ import Totalimage from "./Totalimage";
 import Treat from "./Treat";
 import Medicalteam from "./Medicalteam";
 import Doctoropenpage from "./Doctoropenpage";
+import Docmyappoints from "./Docmyappoints";
 
 
 function Rendercomponents(){
@@ -27,6 +28,7 @@ function Rendercomponents(){
     let [showappointment,setshowappointment] = useState(false)
     let [logdoctor,setlogdoctor] = useState(false)
     let [logpatient,setlogpatient] = useState(false)
+    let [showdocappo,setshowdocappo] = useState(false)
 
     const setappointment=()=>{
         setmain(false)
@@ -40,8 +42,6 @@ function Rendercomponents(){
         setshowappointment(false)
         setshowmyappo(false)
         setshowdocs(true)
-
-        console.log('doctors called')
     }
     const setmyAppointment=()=>{
         setmain(false)
@@ -56,15 +56,23 @@ function Rendercomponents(){
         setmain(false)
         setlogdoctor(true)
         setlogpatient(false)
+        setshowdocappo(false)
         console.log('Doctor is logged')
     }
     const loginaspatient=()=>{
         setmain(false)
         setlogdoctor(false)
         setlogpatient(true)
-        
-
+        setshowdocappo(false)
     }
+
+    const showdocmyappo=()=>{
+        console.log('doctcalho')
+        setmain(false)
+        setshowdocappo(true)
+        setlogdoctor(false)
+    }
+
     return (
         <div>
             <Navbar setAppointment={setappointment} showdoctor={setdoctor} showappointments={setmyAppointment} loginasdoc={loginasdoctor} loginaspat={loginaspatient}/>
@@ -86,7 +94,8 @@ function Rendercomponents(){
                 <>
                     {showappointment && <AppointmentForm />}
                     {showmyappo && <MyAppointments /> }
-                    {logdoctor && <Doctoropenpage/>}
+                    {logdoctor && <Doctoropenpage setshowdocsappo={showdocmyappo}/>}
+                    {showdocappo && <Docmyappoints/> }
                     {logpatient && <Home/>}
                     {showdocs && (
                     <>
