@@ -6,12 +6,32 @@ function Doctorregister({ setShowLogindoc }) {
     const [demail, setdemail] = useState('');
     const [dpass, setdpass] = useState('');
     const [confirmPass, setConfirmPass] = useState('');
-    const [error, setError] = useState('');
+    const [error, seterror] = useState('');
+
+    const handledocemail = (event) => {
+        setdemail(event.target.value);
+        validateemail(event.target.value);
+    };
+   
+   
+
+    const validateemail = (email) => {
+        const regemail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!regemail.test(email)) {
+            seterror('Enter a valid email address');
+            return false;
+        } else {
+            seterror('');
+            return true;
+        }
+    };
+
+
 
     const docregister = (e) => {
         e.preventDefault();
         if (dpass !== confirmPass) {
-            setError("Passwords do not match");
+            seterror("Passwords do not match");
             return;
         }
         let docdetails = {
@@ -37,12 +57,12 @@ function Doctorregister({ setShowLogindoc }) {
             .catch((error) => {
                 if (error.response && error.response.data) {
                     if (error.response.data.error === 'A user with that username already exists') {
-                        setError('already exists');
+                        seterror('already exists');
                     } else {
-                        setError(error.response.data.error || 'An error occurred. Please try again.');
+                        seterror(error.response.data.error || 'An error occurred. Please try again.');
                     }
                 } else {
-                    setError('An error occurred. Please try again.');
+                    seterror('An error occurred. Please try again.');
                 }
             });
     };
@@ -54,7 +74,7 @@ function Doctorregister({ setShowLogindoc }) {
                 <label ><b>Username</b></label>
                 <input type="text" name="username" onChange={(d) => setdname(d.target.value)} placeholder="Enter your username" id="docloginp33" />
                 <label ><b>Email</b></label>
-                <input type="text" name="email" onChange={(d) => setdemail(d.target.value)} placeholder="Enter your email" id="docloginp33" />
+                <input type="text" name="email" onChange={handledocemail} placeholder="Enter your email" id="docloginp33" />
                 <label ><b>Password</b></label>
                 <input type="password" name="password" onChange={(d) => setdpass(d.target.value)} placeholder="Password" id="docloginp33" />
                 <label ><b>Confirm Password</b></label>

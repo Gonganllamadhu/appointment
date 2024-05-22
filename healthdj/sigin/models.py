@@ -35,12 +35,25 @@ class patientinfo(models.Model):
 
 def patientemail(sender, instance, *args, **kwargs):
     subject = 'Appointment confirmation from Star Hospitals'
-    message = '''
-        Hi {} Greetings from Star Hospitals,
-        you successfully Booked an appointment with {} on {} in our Hospitals 
-        make sure to attend the appointment on time 
-        Thanks from Star Hospital
-        '''.format(instance.pname, instance.pdoctor, instance.pdate)
+    message = f'''
+        Hi {instance.pname},
+
+        Greetings from Star Hospitals.
+
+        You successfully Booked an appointment.
+
+        Doctor  :       {instance.pdoctor} 
+        Date    :       {instance.pdate}
+
+        Please try to arrive  early
+
+        If you need to reschedule or cancel your 
+        appointment, please contact us 99999999999 
+        at least 12 hours in advance
+
+        We look forwared to seeing you soon,
+        Thanks from Star Hospital.
+        '''
     send_mail(subject=subject, from_email=settings.EMAIL_HOST_USER, recipient_list=[instance.pemail], message=message)
 
 
